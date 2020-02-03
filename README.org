@@ -1,4 +1,4 @@
-#+title: Digital Humanities tools
+#+title: Digital Methods tools
 #+author: Anthony Burton
 #+options: toc:2
 * Introduction

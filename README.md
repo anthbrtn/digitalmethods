@@ -1,52 +1,52 @@
 
 # Table of Contents
 
--   [Introduction](#org08abcd3)
-    -   [About navigating](#org626cd21)
--   [Software tools](#org83933f0)
-    -   [Graphing and network analysis](#org12dd8ca)
-    -   [Miscellaneous](#org7f2a8bc)
-    -   [Reference management](#org817e0c5)
-    -   [Data analysis and maintenance](#orgf5e962b)
--   [Online tools and resources](#orgee9d201)
-    -   [Independent](#orgb608719)
-    -   [Stanford University](#orgec6485a)
-    -   [MIT Hyperlab](#orgaff39fe)
-    -   [University of Amsterdam Digital Methods Initiative](#orgb5d87fc)
-    -   [Médialab Sciences-Po](#orgb940f7b)
-    -   [Ryerson University](#org83d84e5)
-    -   [Northwestern University KnightLab](#orgff555cc)
-    -   [Duke Digital Humanities](#orgd73e9cd)
-    -   [Miscellaneous](#orga1c6380)
--   [Sources / see more](#orgfbd6c03)
-    -   [University of North Carolina Digital Humanities Tools list](#org32ae062)
-    -   [Duke University Digital Humanities Tools list](#orgcfc9609)
-    -   [DHtech’s Awesome Digital Humanities tools list](#orgda02c04)
-    -   [University of Amsterdam Digital Methods Initiative’s tool database](#org43dd8c0)
-    -   [Sciences Po médialab tools](#orgd11df5a)
+-   [Introduction](#org0200e0c)
+    -   [About navigating](#orgcb34140)
+-   [Software tools](#orgc730613)
+    -   [Graphing and network analysis](#orgd13f368)
+    -   [Miscellaneous](#org9025f37)
+    -   [Reference management](#orgc8010f8)
+    -   [Data analysis and maintenance](#orgfdd9c0f)
+-   [Online tools and resources](#orgca227ba)
+    -   [Independent](#org41092be)
+    -   [Stanford University](#orgcbdc210)
+    -   [MIT Hyperlab](#org0d37b27)
+    -   [University of Amsterdam Digital Methods Initiative](#org14a17c6)
+    -   [Médialab Sciences-Po](#org62c8f5c)
+    -   [Ryerson University](#org4d31a36)
+    -   [Northwestern University KnightLab](#org594c890)
+    -   [Duke Digital Humanities](#orgf9a3293)
+    -   [Miscellaneous](#orgc399fec)
+-   [Sources / see more](#org1d1cfd7)
+    -   [University of North Carolina Digital Humanities Tools list](#org12db71d)
+    -   [Duke University Digital Humanities Tools list](#org424348f)
+    -   [DHtech’s Awesome Digital Humanities tools list](#orgc3f08cf)
+    -   [University of Amsterdam Digital Methods Initiative’s tool database](#orge198a23)
+    -   [Sciences Po médialab tools](#org8fe3e5d)
 
 
 
-<a id="org08abcd3"></a>
+<a id="org0200e0c"></a>
 
 # Introduction
 
-A list of digital tools, cribbed from a bunch of resources ([Sources / see more](#orgfbd6c03)) and put together. Created in collaboration with Dr. Greg Elmer.
+A list of digital tools, cribbed from a bunch of resources ([Sources / see more](#org1d1cfd7)) and put together. Created in collaboration with Dr. Greg Elmer.
 
 
-<a id="org626cd21"></a>
+<a id="orgcb34140"></a>
 
 ## About navigating
 
 This document is currently organized somewhat haphazardly; if you’re crunched for time, your best bet is probably to search for a keyword that you’re looking for (if you’re reading this in a browser, something like `Ctrl+F` or `CMD+F` should pull up a search box; if you’re reading this outside of a browser somehow, you probably know how to grep for text).
 
 
-<a id="org83933f0"></a>
+<a id="orgc730613"></a>
 
 # Software tools
 
 
-<a id="org12dd8ca"></a>
+<a id="orgd13f368"></a>
 
 ## Graphing and network analysis
 
@@ -65,7 +65,7 @@ Gephi is an open-source Java program that allows one to read and manipulate `.gd
 Cytoscape is an open-source graph visualization software. While primarily designed for use in the sciences, it can also interface with `.gdf` network files.
 
 
-<a id="org7f2a8bc"></a>
+<a id="org9025f37"></a>
 
 ## Miscellaneous
 
@@ -78,7 +78,7 @@ This PHP script allows you to enter a (set of) ASIN(s) and crawl its
 recommendations up til a user-specified depth.
 
 
-<a id="org817e0c5"></a>
+<a id="orgc8010f8"></a>
 
 ## Reference management
 
@@ -97,7 +97,7 @@ A free and open-source reference management software to manage bibliographic dat
 JabRef is an open source bibliography reference manager. The native file format used by JabRef is BibTeX, the standard LaTeX bibliography format.
 
 
-<a id="orgf5e962b"></a>
+<a id="orgfdd9c0f"></a>
 
 ## Data analysis and maintenance
 
@@ -109,12 +109,12 @@ JabRef is an open source bibliography reference manager. The native file format 
 A tool for cleaning data; transforming it from one format into another; and extending it with web services and external data.  OpenRefine can be used to scrape data from websites or convert data between formats.  It also makes it easy to save the processing steps to a file that can be loaded back into the tool at a later time, making it easy to repeat the process again on a different set of data.
 
 
-<a id="orgee9d201"></a>
+<a id="orgca227ba"></a>
 
 # Online tools and resources
 
 
-<a id="orgb608719"></a>
+<a id="org41092be"></a>
 
 ## Independent
 
@@ -175,7 +175,7 @@ A tool for creating timelines which can be added to a website or blog.
 A platform that helps you create customized “views” such as interactive maps and timelines.
 
 
-<a id="orgec6485a"></a>
+<a id="orgcbdc210"></a>
 
 ## Stanford University
 
@@ -187,7 +187,7 @@ A platform that helps you create customized “views” such as interactive maps
 Various analyses of historical data in tabular format.
 
 
-<a id="orgaff39fe"></a>
+<a id="org0d37b27"></a>
 
 ## MIT Hyperlab
 
@@ -198,7 +198,7 @@ Various analyses of historical data in tabular format.
 Chronos allows scholars and students to dynamically present historical data in a flexible online environment.
 
 
-<a id="orgb5d87fc"></a>
+<a id="org14a17c6"></a>
 
 ## University of Amsterdam Digital Methods Initiative
 
@@ -632,7 +632,7 @@ Scrape Wikipedia for the categories of articles and the categories of related ar
 A collection of simple tools for extracting data from the YouTube platform via the YouTube API v3.
 
 
-<a id="orgb940f7b"></a>
+<a id="org62c8f5c"></a>
 
 ## Médialab Sciences-Po
 
@@ -658,7 +658,7 @@ Create a graph out of the &ldquo;see also&rdquo; networks between given Wikipedi
 Parse tabular data for relationships and convert into a table.
 
 
-<a id="org83d84e5"></a>
+<a id="org4d31a36"></a>
 
 ## Ryerson University
 
@@ -672,7 +672,7 @@ Parse tabular data for relationships and convert into a table.
 An instance of the University of Amsterdam’s Twitter Capture and Analysis toolkit accessible to Ryerson students.
 
 
-<a id="orgff555cc"></a>
+<a id="org594c890"></a>
 
 ## Northwestern University KnightLab
 
@@ -718,7 +718,7 @@ Create a narrative, sequential story that moves through locations on a map.
 Create a visually-appealing annotated timeline.
 
 
-<a id="orgd73e9cd"></a>
+<a id="orgf9a3293"></a>
 
 ## Duke Digital Humanities
 
@@ -730,7 +730,7 @@ Create a visually-appealing annotated timeline.
 Harvest and display images and videos from Instagram based on hashtags.
 
 
-<a id="orga1c6380"></a>
+<a id="orgc399fec"></a>
 
 ## Miscellaneous
 
@@ -744,40 +744,40 @@ Harvest and display images and videos from Instagram based on hashtags.
 Polinode is an online tool that allows for the opening and basic manipulation of `.gdf` files.
 
 
-<a id="orgfbd6c03"></a>
+<a id="org1d1cfd7"></a>
 
 # Sources / see more
 
 
-<a id="org32ae062"></a>
+<a id="org12db71d"></a>
 
 ## University of North Carolina Digital Humanities Tools list
 
 <http://digitalhumanities.unc.edu/resources/tools/>
 
 
-<a id="orgcfc9609"></a>
+<a id="org424348f"></a>
 
 ## Duke University Digital Humanities Tools list
 
 <https://digitalhumanities.duke.edu/tools>
 
 
-<a id="orgda02c04"></a>
+<a id="orgc3f08cf"></a>
 
 ## DHtech’s Awesome Digital Humanities tools list
 
 <https://github.com/dh-tech/awesome-dhtools>
 
 
-<a id="org43dd8c0"></a>
+<a id="orge198a23"></a>
 
 ## University of Amsterdam Digital Methods Initiative’s tool database
 
 <https://wiki.digitalmethods.net/Dmi/ToolDatabase>
 
 
-<a id="orgd11df5a"></a>
+<a id="org8fe3e5d"></a>
 
 ## Sciences Po médialab tools
 
