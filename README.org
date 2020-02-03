@@ -1,3 +1,12 @@
+#+title: Digital Humanities tools
+#+author: Anthony Burton
+
+* Introduction
+A list of digital tools, cribbed from a bunch of resources ([[* Sources / see more]]) and put together. Created in collaboration with Dr. Greg Elmer.
+
+** About navigating
+This document is currently organized somewhat haphazardly; if you’re crunched for time, your best bet is probably to search for a keyword that you’re looking for (if you’re reading this in a browser, something like =Ctrl+F= or =CMD+F= should pull up a search box; if you’re reading this outside of a browser somehow, you probably know how to grep for text).
+
 * Software tools
 ** Graphing and network analysis
 *** Gephi
@@ -47,6 +56,7 @@ Rawgraphs is an online tabular data processing program that allows users to crea
 
 *** uMap
 https://umap.openstreetmap.fr/en/
+
 Create resuable, static, embeddable maps from OpenStreetMap data.
 *** Simile
 http://simile-widgets.org/
@@ -71,6 +81,7 @@ A platform that helps you create customized “views” such as interactive maps
 ** Stanford University
 *** Palladio
 http://hdlab.stanford.edu/palladio/
+
 Various analyses of historical data in tabular format.
 ** MIT Hyperlab
 *** Chronos Timeline
@@ -79,25 +90,34 @@ Chronos allows scholars and students to dynamically present historical data in a
 
 ** University of Amsterdam Digital Methods Initiative
 *** 4CAT: Capture and Analysis Toolkit
-http://4cat.oilab.nl/ Create datasets from webforums such as 4chan and Reddit and perform textual analysis on the resulting datasets. Login required
+http://4cat.oilab.nl/
+
+Create datasets from webforums such as 4chan and Reddit and perform textual analysis on the resulting datasets. Login required
 
 *** Amazon Book Explorer
-http://tools.digitalmethods.net/beta/amazon Provides different analytics for Amazon.com's book search
+http://tools.digitalmethods.net/beta/amazon
+
+Provides different analytics for Amazon.com's book search
 
 *** App Tracker explorer
-https://tools.digitalmethods.net/beta/appTrackers The DMI’s App Tracker Tracker is a tool to detect a set of predefined fingerprints of known tracking technologies or other software libaries.
+https://tools.digitalmethods.net/beta/appTrackers
+
+The DMI’s App Tracker Tracker is a tool to detect a set of predefined fingerprints of known tracking technologies or other software libaries.
 
 *** Bubble Lines
-http://tools.digitalmethods.net/beta/bubbleline/ Input tags and values to produce relatively sized bubbles. Output is an svg.
+http://tools.digitalmethods.net/beta/bubbleline/
+
+Input tags and values to produce relatively sized bubbles. Output is an svg.
 
 *** Censorship Explorer
-http://tools.digitalmethods.net/beta/proxies Check whether a URL is censored in a particular country by using proxies located around the world.
+http://tools.digitalmethods.net/beta/proxies
+
+Check whether a URL is censored in a particular country by using proxies located around the world.
 
 *** Compare Lists
-http://tools.digitalmethods.net/beta/analyse Compare two lists of URLs for their commonalities and differences.
+http://tools.digitalmethods.net/beta/analyse
 
-*** Compare Networks Over Time
-http://tools.digitalmethods.net/beta/comparenetworksovertime/ Compares Issue Crawler networks over time, and displays ranked actor lists. The over time module is best used in tandem with the Issue Crawler scheduler.
+Compare two lists of URLs for their commonalities and differences.
 
 
 *** Deduplicate
@@ -399,12 +419,9 @@ Makes the images of all language versions of a Wikipedia article comparable.
 
 
 *** Wikipedia Edits Scraper and IP Localizer
-
 http://tools.digitalmethods.net/beta/wikipedia2geo/
 
 Scrapes Wikipedia history and does IP to Geo for anonymous edits
-
- 
 
 *** Wikipedia Entry Check
 
@@ -455,6 +472,8 @@ Parse tabular data for relationships and convert into a table.
 ** Ryerson University
 *** Infoscapelab DMi-TCAT
 https://tcat.infoscapelab.ca
+
+*Login required; contact me at ab {at} anthbrtn.com*
 
 An instance of the University of Amsterdam’s Twitter Capture and Analysis toolkit accessible to Ryerson students.
 
