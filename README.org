@@ -1,6 +1,6 @@
 #+title: Digital Humanities tools
 #+author: Anthony Burton
-
+#+options: toc:2
 * Introduction
 A list of digital tools, cribbed from a bunch of resources ([[* Sources / see more]]) and put together. Created in collaboration with Dr. Greg Elmer.
 
