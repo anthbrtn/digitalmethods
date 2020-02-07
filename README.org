@@ -24,7 +24,7 @@ https://tools.digitalmethods.net/beta/appTrackers
 
 The DMI’s App Tracker Tracker is a tool to detect a set of predefined fingerprints of known tracking technologies or other software libaries.
 
-*** =.csv=Get
+*** =.csv= Get
 https://github.com/fizx/csvget/tree/master
 
 Scrape elements from a website and generate a .csv file.
@@ -270,7 +270,6 @@ This tool checks if the issues exist as a Wikipedia page, i.e., an article. If i
 https://tools.digitalmethods.net/netvizz/youtube/
 
 A collection of simple tools for extracting data from the YouTube platform via the YouTube API v3.
-
 
 * Data organization and maintenance
 ** Data reading
