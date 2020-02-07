@@ -24,7 +24,7 @@ https://tools.digitalmethods.net/beta/appTrackers
 
 The DMI’s App Tracker Tracker is a tool to detect a set of predefined fingerprints of known tracking technologies or other software libaries.
 
-*** CSVGet
+*** =.csv=Get
 https://github.com/fizx/csvget/tree/master
 
 Scrape elements from a website and generate a .csv file.
@@ -162,6 +162,13 @@ http://tools.digitalmethods.net/beta/wikipedia2geo/
 
 Scrapes Wikipedia history and does IP to Geo for anonymous edits
 
+*** YouTube Comment Scraper
+https://github.com/philbot9/youtube-comment-scraper-cli
+
+Scrape comments from YouTube pages.
+
+Use: uh… scrape comments from YouTube pages.
+
 ** Capturing and exploring data
 *** 4CAT: Capture and Analysis Toolkit
 http://4cat.oilab.nl/
@@ -239,6 +246,13 @@ https://tools.digitalmethods.net/netvizz/tumblr/Launch
 
 Analyze co-hashtags and other basic text information from Tumblr posts.
 
+*** twXplorer
+https://twxplorer.knightlab.com/
+
+Search recent tweets and analyze them.
+
+Use: if you want a quick analysis that the TCAT doesn’t provide.
+
 *** Wikipedia Cross-Lingual Image Analysis
 
 http://tools.digitalmethods.net/beta/wikipediaCrosslingualImageAnalysis
@@ -260,12 +274,53 @@ A collection of simple tools for extracting data from the YouTube platform via t
 
 * Data organization and maintenance
 ** Data reading
+*** Agnes
+http://www.secretgeek.net/agnes/twoWay.html
+
+Convert =.csv= data to =.json= and vice-versa.
+
+Use: much API data is returned as =.json=-formatted files.
+
+*** =.csv= to Table
+https://github.com/vividvilla/csvtotable
+
+Convert =.csv= files to searchable and sortable HTML table.
+
+Use: visualize and analyze data formatted in =.csv=
+
+*** eBay’s tabular data file utilities
+https://github.com/eBay/tsv-utils
+
+Analyze data saved with =tab= delimiters, as opposed to the standard =comma=. Yes, it’s /that/ eBay.
+
+Use: perform maintenance and reading on =tab=-separated files.
+*** Mario
+https://github.com/python-mario/mario
+
+Gain access to the Python programming language’s variety of tools and libraries to perform analysis on =.csv=, =.json=, =.html= files and more.
+
+Use: pretty much any analysis and conversion under the sun; it’s a powerful toolkit but requires reading the documentation to figure out your own use-case.
+
+*** networkX
+http://networkx.github.io/
+
+A Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
+
+Use: analyze graphs and networks and return them using python.
+
+*** Nodegoat
+https://nodegoat.net/
+
+A web-based data management, network analysis & visualisation environment.
+
+Use: an all-in-one suite for analyzing, managing and graphing data.
+
 *** PapaParse
 https://www.papaparse.com/demo
 
-A browser-based tool that allows you to parse and analyze CSV data.
+A browser-based tool that allows you to parse and analyze =.csv= data.
 
-Use: look for basic patterns and characteristics of a CSV.
+Use: look for basic patterns and characteristics of a =.csv=.
 
 *** XSV
 
@@ -278,17 +333,31 @@ Use: easily find out things like frequencies of data, different values, and corr
 *** Tad
 https://github.com/antonycourtney/tad
 
-Tad is a desktop application for viewing and analyzing tabular data such as CSV files.
+Tad is a desktop application for viewing and analyzing tabular data such as =.csv= files.
 
 Use: easily create “pivot tables” to analyze your data, among other csv functions.
 
+*** Tapor-coding-tools
+https://github.com/TAPoR-3-Tools/Tapor-Coding-Tools
+
+A collection of coding tools, mostly in python, to analyze text.
+
+Use: worth exploring to find programming examples for the analysis of text. Many use-cases in the repository.
+
 ** Data maintenance
-*** Ron’s CSV Editor
+*** Ron’s =.csv= Editor
 https://www.ronsplace.eu/products/ronseditor
 
 Deal with massive .csv files easily.
 
 Use: organize, read, and analyze .csv files that would normally crash a spreadsheet program.
+
+*** scrubcsv
+https://github.com/faradayio/scrubcsv
+
+Remove bad lines from a .csv file and normalize the rest.
+
+Use: sometimes .csv files exported from SQL databases have errors; many tools here, such as the YouTube data tools and the Twitter Capture and Analysis toolkit are exported as such. This tool discards those error-ridden rows and allows you to read the files.
 
 *** OpenRefine
 https://openrefine.org/
@@ -300,6 +369,13 @@ A tool for cleaning data; transforming it from one format into another; and exte
 http://tools.digitalmethods.net/beta/bubbleline/
 
 Input tags and values to produce relatively sized bubbles. Output is an svg.
+
+*** Concordle
+https://folk.uib.no/nfylk/concordle/
+
+Generate word clouds and see word correlations in a given text. Calls itself the “not-so-pretty cousin of Wordle” (below).
+
+Use: basic text analysis of word frequencies, along with visualization.
 
 *** Colors For Data Scientists
 http://tools.medialab.sciences-po.fr/iwanthue/
@@ -426,11 +502,39 @@ http://viewshare.org/
 
 A platform that helps you create customized “views” such as interactive maps and timelines.
 
+*** VisiData
+https://www.visidata.org/
+
+An interactive, command-line tool for analyzing and visualizing tabular data.
+
+Use: get quick visualizations and perform other data-scientific methods on tabular data.
+
+*** Wordle
+http://www.wordle.net/
+
+Generate word clouds (clouds of words that size the words based on frequency) for a given text.
+
+Use: visualize frequency of words in a given corpus.
+
 ** Analysis
 *** Compare Lists
 http://tools.digitalmethods.net/beta/analyse
 
 Compare two lists of URLs for their commonalities and differences.
+
+*** ComplexSentimentAnalysis.ipynb
+https://github.com/sgsinclair/alta/blob/dc47e4b47b133cee24a85e9817592971e67681cd/ipynb/utilities/ComplexSentimentAnalysis.ipynb
+
+A [[https://jupyter.org/][iPython notebook]] that walks the user through performing complex sentiment analysis of passages like Tweets for sentiment analysis. You can download the iPython notebook and run it yourself (which requires Jupyter lab, linked in the previous sentence), or read the text for an example.
+
+Use: learn how to use python for sentiment analysis; perform sentiment analysis on texts.
+
+*** Gephi
+https://gephi.org/
+
+Gephi is a visualization and exploration software for all kinds of graphs and networks.
+
+Use: analyze the =.gdf= and =.gxml= files returned by many scraping and collection tools. The most robust tool available, but sometimes slow and hard to configure; an online alternative is *Polinode*, below.
 
 *** Harvester
 
@@ -454,6 +558,12 @@ https://tools.digitalmethods.net/beta/lippmannianDevice/
 
 The Lippmannian device is named Walter Lippmann, and provides a coarse means of showing actor partisanship.
 
+*** NodeXL
+http://nodexl.codeplex.com/
+
+NodeXL is a plugin to Microsoft Excel that allows you to visualize and analyze data beyond what the program has normally built in.
+
+Use: visualize and analyze data using Microsoft Excel (although for a faster, lighter, and free alternative, see [[https://www.libreoffice.org/][LibreOffice]]).
 *** Palladio
 http://hdlab.stanford.edu/palladio/
 
@@ -466,12 +576,15 @@ https://www.polinode.com/
 
 Polinode is an online tool that allows for the opening and basic manipulation of =.gdf= files.
 
+Use: analyze the =.gdf= and =.gxml= files returned by many scraping and collection tools. An online tool that is not as powerful as *Gephi*, above, but easier to understand and get started with.
+
 *** Rip Sentences
 
 http://tools.digitalmethods.net/beta/sentences
 
 Rip text from a specified page and force line breaks between sentences.
 
+*** Umigo
 *** Table 2 Net
 https://medialab.github.io/table2net/
 
@@ -487,10 +600,6 @@ Enter URLS, and count the top level domains.
 https://voyant-tools.org/
 
 A web-based tool that provides text reading and basic analysis based on copy-pasted text.
-* Online tools and resources
-
-
-** Miscellaneous
 * Sources / see more
 ** University of North Carolina Digital Humanities Tools list
 http://digitalhumanities.unc.edu/resources/tools/
@@ -506,3 +615,5 @@ https://wiki.digitalmethods.net/Dmi/ToolDatabase
 
 ** Sciences Po médialab tools
 http://tools.medialab.sciences-po.fr/
+** dbohan’s Awesome Structured Text Tools list
+https://github.com/dbohdan/structured-text-tools
