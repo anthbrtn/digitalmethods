@@ -5,7 +5,7 @@
 A list of digital tools, cribbed from a bunch of resources ([[* Sources / see more]]) and put together. Created in collaboration with Dr. Greg Elmer.
 
 ** About navigating
-This document is currently organized somewhat haphazardly; if you’re crunched for time, your best bet is probably to search for a keyword that you’re looking for (if you’re reading this in a browser, something like =Ctrl+F= or =CMD+F= should pull up a search box; if you’re reading this outside of a browser somehow, you probably know how to grep for text).
+This document is organized according to the sort of flow that a digital methods research project would undertake. If you’re crunched for time, your best bet is probably to search for a keyword that you’re looking for (if you’re reading this in a browser, something like =Ctrl+F= or =CMD+F= should pull up a search box; if you’re reading this outside of a browser somehow, you probably know how to grep for text).
 * Data collection
 ** Scraping
 *** Amazon Related Product Graph
