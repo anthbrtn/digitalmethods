@@ -6,93 +6,13 @@ A list of digital tools, cribbed from a bunch of resources ([[* Sources / see mo
 
 ** About navigating
 This document is currently organized somewhat haphazardly; if you’re crunched for time, your best bet is probably to search for a keyword that you’re looking for (if you’re reading this in a browser, something like =Ctrl+F= or =CMD+F= should pull up a search box; if you’re reading this outside of a browser somehow, you probably know how to grep for text).
-
-* Software tools
-** Graphing and network analysis
-*** Gephi
-https://gephi.org
-
-Gephi is an open-source Java program that allows one to read and manipulate =.gdf= network files.
-
-*** Cytoscape
-https://cytoscape.org/
-
-Cytoscape is an open-source graph visualization software. While primarily designed for use in the sciences, it can also interface with =.gdf= network files.
-
-** Miscellaneous
+* Data collection
+** Scraping
 *** Amazon Related Product Graph
 https://github.com/digitalmethodsinitiative/arpg
 
 This PHP script allows you to enter a (set of) ASIN(s) and crawl its
 recommendations up til a user-specified depth.
-
-** Reference management
-*** Zotero
-https://www.zotero.org/
-
-A free and open-source reference management software to manage bibliographic data and related research materials.
-*** JabReF
-https://www.jabref.org/
-
-JabRef is an open source bibliography reference manager. The native file format used by JabRef is BibTeX, the standard LaTeX bibliography format.
-
-** Data analysis and maintenance
-*** OpenRefine
-https://openrefine.org/
-
-A tool for cleaning data; transforming it from one format into another; and extending it with web services and external data.  OpenRefine can be used to scrape data from websites or convert data between formats.  It also makes it easy to save the processing steps to a file that can be loaded back into the tool at a later time, making it easy to repeat the process again on a different set of data.
-* Online tools and resources
-
-** Independent
-*** Datawrapper
-https://datawrapper.de
-
-Datawrapper allows users to create a variety of basic charts and graphs using submitted tabular data.
-
-*** rawgraphs.io
-https://rawgraphs.io
-
-Rawgraphs is an online tabular data processing program that allows users to create advanced charts and graphs using submitted tabular data.
-
-*** uMap
-https://umap.openstreetmap.fr/en/
-
-Create resuable, static, embeddable maps from OpenStreetMap data.
-*** Simile
-http://simile-widgets.org/
-
-A collection of free, open-source web widgets, mostly for data visualizations.
-*** Voyant
-https://voyant-tools.org/
-
-A web-based tool that provides text reading and basic analysis based on copy-pasted text.
-*** TimeGlider
-http://timeglider.com/
-
-A web-based timeline builder
-*** TimeToast
-http://www.timetoast.com/
-
-A tool for creating timelines which can be added to a website or blog.
-*** Viewshare
-http://viewshare.org/
-
-A platform that helps you create customized “views” such as interactive maps and timelines.
-** Stanford University
-*** Palladio
-http://hdlab.stanford.edu/palladio/
-
-Various analyses of historical data in tabular format.
-** MIT Hyperlab
-*** Chronos Timeline
-http://hyperstudio.mit.edu/software/chronos-timeline/
-Chronos allows scholars and students to dynamically present historical data in a flexible online environment.
-
-** University of Amsterdam Digital Methods Initiative
-*** 4CAT: Capture and Analysis Toolkit
-http://4cat.oilab.nl/
-
-Create datasets from webforums such as 4chan and Reddit and perform textual analysis on the resulting datasets. Login required
 
 *** Amazon Book Explorer
 http://tools.digitalmethods.net/beta/amazon
@@ -104,57 +24,18 @@ https://tools.digitalmethods.net/beta/appTrackers
 
 The DMI’s App Tracker Tracker is a tool to detect a set of predefined fingerprints of known tracking technologies or other software libaries.
 
-*** Bubble Lines
-http://tools.digitalmethods.net/beta/bubbleline/
+*** CSVGet
+https://github.com/fizx/csvget/tree/master
 
-Input tags and values to produce relatively sized bubbles. Output is an svg.
+Scrape elements from a website and generate a .csv file.
 
-*** Censorship Explorer
-http://tools.digitalmethods.net/beta/proxies
-
-Check whether a URL is censored in a particular country by using proxies located around the world.
-
-*** Compare Lists
-http://tools.digitalmethods.net/beta/analyse
-
-Compare two lists of URLs for their commonalities and differences.
-
-
-*** Deduplicate
-
-http://tools.digitalmethods.net/beta/deduplicate
-
-Replicates the tags in a tag cloud by their value
+Use: grab select data like headlines, categories, etc.
 
 *** Discus Comment Scraper
 
 http://tools.digitalmethods.net/beta/disqusScraper
 
 This tool scrapes threads and comments from websites implementing the http://www.disqus.com/Disqus commenting system.
-
-*** Dorling Map Generator
-
-http://tools.digitalmethods.net/beta/dorling/
-
-Input tags and values to produce a Dorling Map (i.e. bubbles). Output is an svg.
-
-*** Expand Tiny Urls
-
-http://tools.digitalmethods.net/beta/expandTinyUrls/
-
-Expands URLs that have been shortened by tools like tinyurl.com or bit.ly.
-
-*** Extract URLs
-
-http://tools.digitalmethods.net/beta/getXmlUrls/
-
-Extracts URLs from an Issuecrawler result file (.xml). Useful for retrieving starting points as well as a clean list of the actors in the network.
-
-*** Geo IP
-
-http://tools.digitalmethods.net/beta/geoIP/
-
-Translates URLs or IP addresses into geographical locations
 
 *** Github organizations meta-data lookup
 
@@ -193,7 +74,6 @@ https://tools.digitalmethods.net/beta/githubContributors/
 Find out which users contributed source code to Github repositories
 
 *** Google Autocomplete
-
 http://tools.digitalmethods.net/beta/scrapeGoogle/autocomplete.php
 
 Retrieves autocomplete suggestions from Google
@@ -217,16 +97,9 @@ http://tools.digitalmethods.net/beta/googleReverseImages
 Scrape Google for occurance of images
 
 *** Googlescraper (Lippmannian Device)
-
 http://tools.digitalmethods.net/beta/searchEngineScraper/
 
 Batch queries Google. Query the resonance of a particular term, or a series of terms, in a set of Websites.
-
-*** Harvester
-
-http://tools.digitalmethods.net/beta/harvestUrls/
-
-Extract URLs from text, source code or search engine results. Produces a clean list of URLs.
 
 *** Image Scraper
 
@@ -252,57 +125,15 @@ https://tools.digitalmethods.net/beta/waybackNetworkPerYear/
 
 Enter a set of URLs and the archived versions closest to 1 July for a specific year are retrieved. Thereafter links are extracted and a network file is output.
 
-*** Issue Dramaturg
-
-http://www.issuescraper.net/
-
-*Login required*
-
-Enter up to 3 URLs as well as a key word. The Issuedramaturg queries Google for the key word, and shows the Pageranks of the URLs over time. The output is a graph of the Pagerank of the URLs...
-
-*** Issue Geographer
-
-http://tools.digitalmethods.net/zkm/index.php
-
-Geo-locates the organizations on an Issue Crawler map, using whois information, and visualizes the organizations' registered locations on a geographical map.
-
-*** Issuecrawler
-
-http://www.issuecrawler.net/
-
-*Login Required*
-
-Enter URLs and the Issue Crawler performs co-link analysis in one, two or three iterations, and outputs a cluster graph.
-
 *** iTunes Store
-
 http://tools.digitalmethods.net/beta/itunesStore
 
 Query the iTunes store and grab both tabular and =.gdf= data regarding results.
 
-*** Language Detection
+*** Lentil
+https://digitalhumanities.duke.edu/tools/lentil
 
-http://tools.digitalmethods.net/beta/text_cat/
-
-Detects language for given URLs. The first 1000 characters on the Web page(s) are extracted, and the language of each page is detected.
-
-*** Link Ripper
-
-http://tools.digitalmethods.net/beta/linkRipper/
-
-Capture all internal links and/or outlinks from a page.
-
-*** Lippmannian Device
-
-https://tools.digitalmethods.net/beta/lippmannianDevice/
-
-The Lippmannian device is named Walter Lippmann, and provides a coarse means of showing actor partisanship.
-
-*** Lippmannian Device To Gephi
-
-http://tools.digitalmethods.net/beta/lippmannianDeviceToGephi
-
-This tool allows one to visualize the output of the Lippmannian device as a network with Gephi.
+Harvest and display images and videos from Instagram based on hashtags.
 
 *** News Agencies Scraper
 
@@ -310,23 +141,61 @@ https://tools.digitalmethods.net/beta/newsAgencies/
 
 Basic scraper for various news agencies for particular keywords and extract titles, images, dates and full text.
 
-*** Ranked Deep Pages from Core Issue Crawler Network
+*** Search Engine Scraper
 
-http://tools.digitalmethods.net/beta/ic_allied_tools/rankedDeepPagesFromCore.php
+https://tools.digitalmethods.net/beta/searchEngineScraper/
 
-Enter an Issuecrawler XML file and this script will get out all pages from the core network and rank those by pages by inlink count.
+*** Wikipedia TOC Scraper
 
-*** Raw Text to Tag Cloud Engine
+http://tools.digitalmethods.net/beta/wikitoc/
 
-http://tools.digitalmethods.net/beta/tagcloud/
+Scrape Table of Contents for revisions of a wikipedia page and explore the results by moving a slider to browse across chronologically ordered TOCs.
 
-Takes raw text, counts the words and returns an ordered, unordered or alphabetically ordered tagcloud.
+*** Wikipedia categories scraper
 
-*** Rip Sentences
+https://tools.digitalmethods.net/beta/wikipediaCategoryAnalysis
 
-http://tools.digitalmethods.net/beta/sentences
+Scrape Wikipedia for the categories of articles and the categories of related articles in different languages.
 
-Rip text from a specified page and force line breaks between sentences.
+*** Wikipedia Edits Scraper and IP Localizer
+http://tools.digitalmethods.net/beta/wikipedia2geo/
+
+Scrapes Wikipedia history and does IP to Geo for anonymous edits
+
+** Capturing and exploring data
+*** 4CAT: Capture and Analysis Toolkit
+http://4cat.oilab.nl/
+
+Create datasets from webforums such as 4chan and Reddit and perform textual analysis on the resulting datasets. Login required.
+
+*** Censorship Explorer
+http://tools.digitalmethods.net/beta/proxies
+
+Check whether a URL is censored in a particular country by using proxies located around the world.
+
+*** Expand Tiny Urls
+
+http://tools.digitalmethods.net/beta/expandTinyUrls/
+
+Expands URLs that have been shortened by tools like tinyurl.com or bit.ly.
+
+*** Geo IP
+http://tools.digitalmethods.net/beta/geoIP/
+
+Translates URLs or IP addresses into geographical locations
+
+*** Infoscapelab DMi-TCAT
+https://tcat.infoscapelab.ca
+
+*Login required; contact me at ab {at} anthbrtn.com*
+
+An instance of the University of Amsterdam’s Twitter Capture and Analysis toolkit accessible to Ryerson students.
+
+*** Link Ripper
+
+http://tools.digitalmethods.net/beta/linkRipper/
+
+Capture all internal links and/or outlinks from a page.
 
 *** Robots.txt Discovery
 
@@ -340,21 +209,168 @@ http://tools.digitalmethods.net/beta/screenshotGenerator
 
 Produce screenshots for a list of URLs
 
-*** Search Engine Scraper
-
-https://tools.digitalmethods.net/beta/searchEngineScraper/
-
 *** Source Code Search
 
 http://tools.digitalmethods.net/beta/sourceCodeSearch
 
 loads a URL and searches for patterns in the page's source code
 
-*** TLD counts
+*** Text Ripper
 
-http://tools.digitalmethods.net/beta/tldCounts/
+http://tools.digitalmethods.net/beta/textRipper
 
-Enter URLS, and count the top level domains.
+Rip all non-html (i.e. text) from a specified page.
+
+*** Timestamp Ripper
+
+http://tools.digitalmethods.net/beta/timestamp
+
+Rips and displays a web page's last modification date (using the page's HTML header). Beware of dynamically generated pages, where the date stamps will be the time of retrieval.
+
+*** Triangulation
+
+http://tools.digitalmethods.net/beta/triangulate/
+
+Enter two or more lists of URLs or other items to discover commonalities among them. Possible visualizations include a Venn Diagram.
+
+*** Netvizz Tumblr toolkit
+
+https://tools.digitalmethods.net/netvizz/tumblr/Launch
+
+Analyze co-hashtags and other basic text information from Tumblr posts.
+
+*** Wikipedia Cross-Lingual Image Analysis
+
+http://tools.digitalmethods.net/beta/wikipediaCrosslingualImageAnalysis
+
+Makes the images of all language versions of a Wikipedia article comparable.
+
+*** Wikipedia Entry Check
+
+http://tools.digitalmethods.net/beta/wikipediaEntryCheck/
+
+This tool checks if the issues exist as a Wikipedia page, i.e., an article. If it exists it checks whether the organization is mentioned on that page.
+
+*** YouTube Data Tools
+
+https://tools.digitalmethods.net/netvizz/youtube/
+
+A collection of simple tools for extracting data from the YouTube platform via the YouTube API v3.
+
+
+* Data organization and maintenance
+** Data reading
+*** PapaParse
+https://www.papaparse.com/demo
+
+A browser-based tool that allows you to parse and analyze CSV data.
+
+Use: look for basic patterns and characteristics of a CSV.
+
+*** XSV
+
+https://github.com/BurntSushi/xsv
+
+A command-line toolkit to analyze and investigate .csv files.
+
+Use: easily find out things like frequencies of data, different values, and correlations.
+
+*** Tad
+https://github.com/antonycourtney/tad
+
+Tad is a desktop application for viewing and analyzing tabular data such as CSV files.
+
+Use: easily create “pivot tables” to analyze your data, among other csv functions.
+
+** Data maintenance
+*** Ron’s CSV Editor
+https://www.ronsplace.eu/products/ronseditor
+
+Deal with massive .csv files easily.
+
+Use: organize, read, and analyze .csv files that would normally crash a spreadsheet program.
+
+*** OpenRefine
+https://openrefine.org/
+
+A tool for cleaning data; transforming it from one format into another; and extending it with web services and external data.  OpenRefine can be used to scrape data from websites or convert data between formats.  It also makes it easy to save the processing steps to a file that can be loaded back into the tool at a later time, making it easy to repeat the process again on a different set of data.
+* Data analysis and visualization
+** Visualization
+*** Bubble Lines
+http://tools.digitalmethods.net/beta/bubbleline/
+
+Input tags and values to produce relatively sized bubbles. Output is an svg.
+
+*** Colors For Data Scientists
+http://tools.medialab.sciences-po.fr/iwanthue/
+
+Generate and refine palettes of optimally distinct colors. (by Sciences-Po)
+
+*** Datawrapper
+https://datawrapper.de
+
+Datawrapper allows users to create a variety of basic charts and graphs using submitted tabular data.
+
+*** Deduplicate
+
+http://tools.digitalmethods.net/beta/deduplicate
+
+Replicates the tags in a tag cloud by their value
+
+*** Dorling Map Generator
+
+http://tools.digitalmethods.net/beta/dorling/
+
+Input tags and values to produce a Dorling Map (i.e. bubbles). Output is an svg.
+
+*** Chronos Timeline
+http://hyperstudio.mit.edu/software/chronos-timeline/
+Chronos allows scholars and students to dynamically present historical data in a flexible online environment.
+
+*** Lippmannian Device To Gephi
+
+http://tools.digitalmethods.net/beta/lippmannianDeviceToGephi
+
+This tool allows one to visualize the output of the Lippmannian device as a network with Gephi.
+
+*** Raw Text to Tag Cloud Engine
+
+http://tools.digitalmethods.net/beta/tagcloud/
+
+Takes raw text, counts the words and returns an ordered, unordered or alphabetically ordered tagcloud.
+
+*** rawgraphs.io
+https://rawgraphs.io
+
+Rawgraphs is an online tabular data processing program that allows users to create advanced charts and graphs using submitted tabular data.
+
+*** Scene
+https://scene.knightlab.com/
+Create a multimedia story told through 3D “VR” tools.
+
+*** Seealsology
+https://densitydesign.github.io/strumentalia-seealsology/
+
+Create a graph out of the "see also" networks between given Wikipedia pages.
+
+*** Simile
+http://simile-widgets.org/
+
+A collection of free, open-source web widgets, mostly for data visualizations.
+
+*** Soundcite
+http://soundcite.knightlab.com/
+
+Stitch together audio from various sources and embed it within a readable text.
+*** Storyline
+http://storyline.knightlab.com/
+
+Easy-to-use tool to build an annotated, interactive line chart.
+
+*** StoryMap
+http://storymap.knightlab.com/
+
+Create a narrative, sequential story that moves through locations on a map.
 
 *** Table to Net
 
@@ -386,132 +402,63 @@ http://tools.digitalmethods.net/beta/tagcloudToWordle/
 
 This tool allows one to transform a normal tag cloud into a fancy Wordle one.
 
-*** Text Ripper
+*** TimeGlider
+http://timeglider.com/
 
-http://tools.digitalmethods.net/beta/textRipper
-
-Rip all non-html (i.e. text) from a specified page.
-
-*** Timestamp Ripper
-
-http://tools.digitalmethods.net/beta/timestamp
-
-Rips and displays a web page's last modification date (using the page's HTML header). Beware of dynamically generated pages, where the date stamps will be the time of retrieval.
-
-
-*** Triangulation
-
-http://tools.digitalmethods.net/beta/triangulate/
-
-Enter two or more lists of URLs or other items to discover commonalities among them. Possible visualizations include a Venn Diagram.
-
-*** Tumblr
-
-https://tools.digitalmethods.net/netvizz/tumblr/Launch
-
-Analyze co-hashtags and other basic text information from Tumblr posts.
-
-*** Wikipedia Cross-Lingual Image Analysis
-
-http://tools.digitalmethods.net/beta/wikipediaCrosslingualImageAnalysis
-
-Makes the images of all language versions of a Wikipedia article comparable.
-
-
-*** Wikipedia Edits Scraper and IP Localizer
-http://tools.digitalmethods.net/beta/wikipedia2geo/
-
-Scrapes Wikipedia history and does IP to Geo for anonymous edits
-
-*** Wikipedia Entry Check
-
-http://tools.digitalmethods.net/beta/wikipediaEntryCheck/
-
-This tool checks if the issues exist as a Wikipedia page, i.e., an article. If it exists it checks whether the organization is mentioned on that page.
-
-*** Wikipedia History Flow Companion
-
-http://tools.digitalmethods.net/beta/wikipediaHistoryFlowCompanion/
-
-This script allows you to specify a range of Wikipedia revisions for use with the History Flow visualization.
-
-*** Wikipedia TOC Scraper
-
-http://tools.digitalmethods.net/beta/wikitoc/
-
-Scrape Table of Contents for revisions of a wikipedia page and explore the results by moving a slider to browse across chronologically ordered TOCs.
-
-*** Wikipedia categories scraper
-
-https://tools.digitalmethods.net/beta/wikipediaCategoryAnalysis
-
-Scrape Wikipedia for the categories of articles and the categories of related articles in different languages.
-
-*** YouTube Data Tools
-
-https://tools.digitalmethods.net/netvizz/youtube/
-
-A collection of simple tools for extracting data from the YouTube platform via the YouTube API v3.
-
-** Médialab Sciences-Po
-*** Colors For Data Scientists
-http://tools.medialab.sciences-po.fr/iwanthue/
-
-Generate and refine palettes of optimally distinct colors. (by Sciences-Po)
-
-*** Seealsology
-https://densitydesign.github.io/strumentalia-seealsology/
-
-Create a graph out of the "see also" networks between given Wikipedia pages.
-
-*** Table 2 Net
-https://medialab.github.io/table2net/
-
-Parse tabular data for relationships and convert into a table.
-
-** Ryerson University
-*** Infoscapelab DMi-TCAT
-https://tcat.infoscapelab.ca
-
-*Login required; contact me at ab {at} anthbrtn.com*
-
-An instance of the University of Amsterdam’s Twitter Capture and Analysis toolkit accessible to Ryerson students.
-
-** Northwestern University KnightLab
-*** Juxtapose
-http://juxtapose.knightlab.com/
-
-Easily compare two images within a frame.
-*** Scene
-https://scene.knightlab.com/
-Create a multimedia story told through 3D “VR” tools.
-*** Soundcite
-http://soundcite.knightlab.com/
-
-Stitch together audio from various sources and embed it within a readable text.
-*** Storyline
-http://storyline.knightlab.com/
-
-Easy-to-use tool to build an annotated, interactive line chart.
-
-*** StoryMap
-http://storymap.knightlab.com/
-
-Create a narrative, sequential story that moves through locations on a map.
+A web-based timeline builder
 
 *** Timeline
 http://timeline.knightlab.com/
 
 Create a visually-appealing annotated timeline.
 
-** Duke Digital Humanities
-*** Lentil
-https://digitalhumanities.duke.edu/tools/lentil
+*** TimeToast
+http://www.timetoast.com/
 
-Harvest and display images and videos from Instagram based on hashtags.
+A tool for creating timelines which can be added to a website or blog.
 
+*** uMap
+https://umap.openstreetmap.fr/en/
 
-** Miscellaneous
+Create resuable, static, embeddable maps from OpenStreetMap data.
+*** Viewshare
+http://viewshare.org/
+
+A platform that helps you create customized “views” such as interactive maps and timelines.
+
+** Analysis
+*** Compare Lists
+http://tools.digitalmethods.net/beta/analyse
+
+Compare two lists of URLs for their commonalities and differences.
+
+*** Harvester
+
+http://tools.digitalmethods.net/beta/harvestUrls/
+
+Extract URLs from text, source code or search engine results. Produces a clean list of URLs.
+
+*** Juxtapose
+http://juxtapose.knightlab.com/
+
+Easily compare two images within a frame.
+*** Language Detection
+
+http://tools.digitalmethods.net/beta/text_cat/
+
+Detects language for given URLs. The first 1000 characters on the Web page(s) are extracted, and the language of each page is detected.
+
+*** Lippmannian Device
+
+https://tools.digitalmethods.net/beta/lippmannianDevice/
+
+The Lippmannian device is named Walter Lippmann, and provides a coarse means of showing actor partisanship.
+
+*** Palladio
+http://hdlab.stanford.edu/palladio/
+
+Various analyses of historical data in tabular format.
+
 *** Polinode
 https://www.polinode.com/
 
@@ -519,6 +466,31 @@ https://www.polinode.com/
 
 Polinode is an online tool that allows for the opening and basic manipulation of =.gdf= files.
 
+*** Rip Sentences
+
+http://tools.digitalmethods.net/beta/sentences
+
+Rip text from a specified page and force line breaks between sentences.
+
+*** Table 2 Net
+https://medialab.github.io/table2net/
+
+Parse tabular data for relationships and convert into a table.
+
+*** TLD counts
+
+http://tools.digitalmethods.net/beta/tldCounts/
+
+Enter URLS, and count the top level domains.
+
+*** Voyant
+https://voyant-tools.org/
+
+A web-based tool that provides text reading and basic analysis based on copy-pasted text.
+* Online tools and resources
+
+
+** Miscellaneous
 * Sources / see more
 ** University of North Carolina Digital Humanities Tools list
 http://digitalhumanities.unc.edu/resources/tools/
