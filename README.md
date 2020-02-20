@@ -196,13 +196,6 @@ Enter a set of URLs and the archived versions closest to 1 July for a specific y
 Query the iTunes store and grab both tabular and `.gdf` data regarding results.
 
 
-### Lentil
-
-<https://digitalhumanities.duke.edu/tools/lentil>
-
-Harvest and display images and videos from Instagram based on hashtags.
-
-
 ### News Agencies Scraper
 
 <https://tools.digitalmethods.net/beta/newsAgencies/>
