@@ -143,6 +143,12 @@ Octoparse provides a tutorial for scraping Instagram. It can be found [[https://
 
 https://tools.digitalmethods.net/beta/searchEngineScraper/
 
+*** webscraper.io
+
+https://www.webscraper.io/
+
+A browser extension that allows you to build scrapers, scrape websites, and export data in .csv format. Closed-source, but the browser extension is free.
+
 *** Wikipedia TOC Scraper
 
 http://tools.digitalmethods.net/beta/wikitoc/
