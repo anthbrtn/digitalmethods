@@ -1,6 +1,7 @@
 #+title: Digital Methods tools
 #+author: Anthony Burton
 #+options: toc:2
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style1.css" />
 * Introduction
 A list of digital tools, cribbed from a bunch of resources ([[* Sources / see more]]) and put together. Created in collaboration with Dr. Greg Elmer.
 

@@ -1,47 +1,47 @@
 
 # Table of Contents
 
-1.  [Introduction](#org196304d)
-    1.  [About navigating](#orge811535)
-2.  [Data collection](#org556d0ef)
-    1.  [Scraping](#org919f95d)
-    2.  [Capturing and exploring data](#org0c1c0ba)
-3.  [Data organization and maintenance](#org6214c40)
-    1.  [Data reading](#orgd2237a7)
-    2.  [Data maintenance](#org15fcb27)
-4.  [Data analysis and visualization](#org8b24fea)
-    1.  [Visualization](#org06dfc71)
-    2.  [Analysis](#orga4f04b9)
-5.  [Sources / see more](#orgb52ee63)
-    1.  [University of North Carolina Digital Humanities Tools list](#org0236df8)
-    2.  [Duke University Digital Humanities Tools list](#org89c7c87)
-    3.  [DHtech’s Awesome Digital Humanities tools list](#orge4d95cc)
-    4.  [University of Amsterdam Digital Methods Initiative’s tool database](#orgb5fd00d)
-    5.  [Sciences Po médialab tools](#org533165c)
-    6.  [dbohan’s Awesome Structured Text Tools list](#org8b75df4)
+1.  [Introduction](#orga3c4078)
+    1.  [About navigating](#orgace854e)
+2.  [Data collection](#org1d89854)
+    1.  [Scraping](#orgf83d269)
+    2.  [Capturing and exploring data](#orgb6b89f4)
+3.  [Data organization and maintenance](#org445c95b)
+    1.  [Data reading](#orgf57be89)
+    2.  [Data maintenance](#org00352e6)
+4.  [Data analysis and visualization](#org97cfa62)
+    1.  [Visualization](#org8a21a5b)
+    2.  [Analysis](#orgdf9d9ef)
+5.  [Sources / see more](#org615ad13)
+    1.  [University of North Carolina Digital Humanities Tools list](#org8971556)
+    2.  [Duke University Digital Humanities Tools list](#org99e13ca)
+    3.  [DHtech’s Awesome Digital Humanities tools list](#org9eb3499)
+    4.  [University of Amsterdam Digital Methods Initiative’s tool database](#orgf8650f3)
+    5.  [Sciences Po médialab tools](#org1002d96)
+    6.  [dbohan’s Awesome Structured Text Tools list](#org06bb9e2)
 
 
 
-<a id="org196304d"></a>
+<a id="orga3c4078"></a>
 
 # Introduction
 
-A list of digital tools, cribbed from a bunch of resources ([5](#orgb52ee63)) and put together. Created in collaboration with Dr. Greg Elmer.
+A list of digital tools, cribbed from a bunch of resources ([5](#org615ad13)) and put together. Created in collaboration with Dr. Greg Elmer.
 
 
-<a id="orge811535"></a>
+<a id="orgace854e"></a>
 
 ## About navigating
 
 This document is organized according to the sort of flow that a digital methods research project would undertake. If you’re crunched for time, your best bet is probably to search for a keyword that you’re looking for (if you’re reading this in a browser, something like `Ctrl+F` or `CMD+F` should pull up a search box; if you’re reading this outside of a browser somehow, you probably know how to grep for text).
 
 
-<a id="org556d0ef"></a>
+<a id="org1d89854"></a>
 
 # Data collection
 
 
-<a id="org919f95d"></a>
+<a id="orgf83d269"></a>
 
 ## Scraping
 
@@ -212,6 +212,13 @@ An all-in-one solution for scraping websites, including the ability to scrape pl
 <https://tools.digitalmethods.net/beta/searchEngineScraper/>
 
 
+### webscraper.io
+
+<https://www.webscraper.io/>
+
+A browser extension that allows you to build scrapers, scrape websites, and export data in .csv format. Closed-source, but the browser extension is free.
+
+
 ### Wikipedia TOC Scraper
 
 <http://tools.digitalmethods.net/beta/wikitoc/>
@@ -242,7 +249,7 @@ Scrape comments from YouTube pages.
 Use: uh… scrape comments from YouTube pages.
 
 
-<a id="org0c1c0ba"></a>
+<a id="orgb6b89f4"></a>
 
 ## Capturing and exploring data
 
@@ -370,12 +377,12 @@ This tool checks if the issues exist as a Wikipedia page, i.e., an article. If i
 A collection of simple tools for extracting data from the YouTube platform via the YouTube API v3.
 
 
-<a id="org6214c40"></a>
+<a id="org445c95b"></a>
 
 # Data organization and maintenance
 
 
-<a id="orgd2237a7"></a>
+<a id="orgf57be89"></a>
 
 ## Data reading
 
@@ -470,7 +477,7 @@ A collection of coding tools, mostly in python, to analyze text.
 Use: worth exploring to find programming examples for the analysis of text. Many use-cases in the repository.
 
 
-<a id="org15fcb27"></a>
+<a id="org00352e6"></a>
 
 ## Data maintenance
 
@@ -500,12 +507,12 @@ Use: sometimes .csv files exported from SQL databases have errors; many tools he
 A tool for cleaning data; transforming it from one format into another; and extending it with web services and external data.  OpenRefine can be used to scrape data from websites or convert data between formats.  It also makes it easy to save the processing steps to a file that can be loaded back into the tool at a later time, making it easy to repeat the process again on a different set of data.
 
 
-<a id="org8b24fea"></a>
+<a id="org97cfa62"></a>
 
 # Data analysis and visualization
 
 
-<a id="org06dfc71"></a>
+<a id="org8a21a5b"></a>
 
 ## Visualization
 
@@ -710,7 +717,7 @@ Generate word clouds (clouds of words that size the words based on frequency) fo
 Use: visualize frequency of words in a given corpus.
 
 
-<a id="orga4f04b9"></a>
+<a id="orgdf9d9ef"></a>
 
 ## Analysis
 
@@ -826,47 +833,47 @@ Enter URLS, and count the top level domains.
 A web-based tool that provides text reading and basic analysis based on copy-pasted text.
 
 
-<a id="orgb52ee63"></a>
+<a id="org615ad13"></a>
 
 # Sources / see more
 
 
-<a id="org0236df8"></a>
+<a id="org8971556"></a>
 
 ## University of North Carolina Digital Humanities Tools list
 
 <http://digitalhumanities.unc.edu/resources/tools/>
 
 
-<a id="org89c7c87"></a>
+<a id="org99e13ca"></a>
 
 ## Duke University Digital Humanities Tools list
 
 <https://digitalhumanities.duke.edu/tools>
 
 
-<a id="orge4d95cc"></a>
+<a id="org9eb3499"></a>
 
 ## DHtech’s Awesome Digital Humanities tools list
 
 <https://github.com/dh-tech/awesome-dhtools>
 
 
-<a id="orgb5fd00d"></a>
+<a id="orgf8650f3"></a>
 
 ## University of Amsterdam Digital Methods Initiative’s tool database
 
 <https://wiki.digitalmethods.net/Dmi/ToolDatabase>
 
 
-<a id="org533165c"></a>
+<a id="org1002d96"></a>
 
 ## Sciences Po médialab tools
 
 <http://tools.medialab.sciences-po.fr/>
 
 
-<a id="org8b75df4"></a>
+<a id="org06bb9e2"></a>
 
 ## dbohan’s Awesome Structured Text Tools list
 
