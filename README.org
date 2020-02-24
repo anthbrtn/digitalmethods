@@ -108,6 +108,11 @@ http://tools.digitalmethods.net/beta/imagesDeep
 
 Scrape images from a single page.
 
+*** Instagram Loader
+https://tools.digitalmethods.net/beta/instagramLoader/
+
+Easily scrape images from Instagram based on hashtag, location, or user data. If the website asks you for a login, try from a different internet connection.
+
 *** Internet Archive Wayback Machine Link Ripper
 
 https://tools.digitalmethods.net/beta/internetArchiveWaybackMachineLinkRipper
