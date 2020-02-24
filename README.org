@@ -107,12 +107,6 @@ http://tools.digitalmethods.net/beta/imagesDeep
 
 Scrape images from a single page.
 
-*** Instagram Scraper
-
-https://tools.digitalmethods.net/beta/instagramLoader/
-
-Retrieves Instagram images for hashtags, locations, or user names.
-
 *** Internet Archive Wayback Machine Link Ripper
 
 https://tools.digitalmethods.net/beta/internetArchiveWaybackMachineLinkRipper
@@ -130,16 +124,20 @@ http://tools.digitalmethods.net/beta/itunesStore
 
 Query the iTunes store and grab both tabular and =.gdf= data regarding results.
 
-*** Lentil
-https://digitalhumanities.duke.edu/tools/lentil
-
-Harvest and display images and videos from Instagram based on hashtags.
-
 *** News Agencies Scraper
 
 https://tools.digitalmethods.net/beta/newsAgencies/
 
 Basic scraper for various news agencies for particular keywords and extract titles, images, dates and full text.
+
+*** Octoparse
+
+https://www.octoparse.com/
+
+An all-in-one solution for scraping websites, including the ability to scrape platform pages. Closed source, paid, and requires a sign-up, although the website offers a 14-day demo trial.
+
+**** Using Octoparse for Instagram
+Octoparse provides a tutorial for scraping Instagram. It can be found [[https://helpcenter.octoparse.com/hc/en-us/articles/360018842071-Scrape-data-on-Instagram][on their website.]]
 
 *** Search Engine Scraper
 
