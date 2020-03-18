@@ -1,372 +1,422 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="Anthony Burton" />
-  <title>Digital Methods tools</title>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
-  <link rel="stylesheet" type="text/css" href="style1.css" media="screen" />
+<title>README.html</title>
+<meta http-equiv="Content-Type" content="application/xhtml+xml;charset=utf-8"/>
+<link rel="stylesheet" type="text/css" media="all" href="https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.min.css"  />
+<link rel="stylesheet" type="text/css" media="all" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/styles/github.min.css"  /><meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'><style> body { box-sizing: border-box; max-width: 740px; width: 100%; margin: 40px auto; padding: 0 10px; } </style><script src='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js'></script><script>document.addEventListener('DOMContentLoaded', () => { document.body.classList.add('markdown-body'); document.querySelectorAll('pre[lang] > code').forEach((code) => { code.classList.add(code.parentElement.lang); }); document.querySelectorAll('pre > code').forEach((code) => { hljs.highlightBlock(code); }); });</script>
 </head>
+
 <body>
-<header id="title-block-header">
-<h1 class="title">Digital Methods tools</h1>
-<p class="author">Anthony Burton</p>
-</header>
+
+<h1 id="table-of-contents">Table of Contents</h1>
+<ol type="1">
+<li><a href="#orgdc0fd9d">Introduction</a>
+<ol type="1">
+<li><a href="#org98145d1">About navigating</a></li>
+</ol></li>
+<li><a href="#org43f396c">Data collection</a>
+<ol type="1">
+<li><a href="#orgc6b792c">Scraping</a></li>
+<li><a href="#org30516ef">Capturing and exploring data</a></li>
+</ol></li>
+<li><a href="#orgd943233">Data organization and maintenance</a>
+<ol type="1">
+<li><a href="#orgbd53587">Data reading</a></li>
+<li><a href="#orgd72812f">Data maintenance</a></li>
+</ol></li>
+<li><a href="#org24df978">Data analysis and visualization</a>
+<ol type="1">
+<li><a href="#orgfe94d2b">Visualization</a></li>
+<li><a href="#org434b523">Analysis</a></li>
+</ol></li>
+<li><a href="#org97bf486">Sources / see more</a>
+<ol type="1">
+<li><a href="#org2bc1b4b">University of North Carolina Digital Humanities Tools list</a></li>
+<li><a href="#orgc070df7">Duke University Digital Humanities Tools list</a></li>
+<li><a href="#org5208eba">DHtech’s Awesome Digital Humanities tools list</a></li>
+<li><a href="#org6b43868">University of Amsterdam Digital Methods Initiative’s tool database</a></li>
+<li><a href="#orgcceca96">Sciences Po médialab tools</a></li>
+<li><a href="#org8be4cc2">dbohan’s Awesome Structured Text Tools list</a></li>
+</ol></li>
+</ol>
+<p><a id="orgdc0fd9d"></a></p>
 <h1 id="introduction">Introduction</h1>
-<p>A list of digital tools, cribbed from a bunch of resources (<a href="#* Sources / see more">5</a>) and put together. Created in collaboration with Dr. Greg Elmer.</p>
+<p>A list of digital tools, cribbed from a bunch of resources (<a href="#org97bf486">5</a>) and put together. Created in collaboration with Dr. Greg Elmer.</p>
+<p><a id="org98145d1"></a></p>
 <h2 id="about-navigating">About navigating</h2>
 <p>This document is organized according to the sort of flow that a digital methods research project would undertake. If you’re crunched for time, your best bet is probably to search for a keyword that you’re looking for (if you’re reading this in a browser, something like <code>Ctrl+F</code> or <code>CMD+F</code> should pull up a search box; if you’re reading this outside of a browser somehow, you probably know how to grep for text).</p>
+<p><a id="org43f396c"></a></p>
 <h1 id="data-collection">Data collection</h1>
+<p><a id="orgc6b792c"></a></p>
 <h2 id="scraping">Scraping</h2>
 <h3 id="amazon-related-product-graph">Amazon Related Product Graph</h3>
-<p><a href="https://github.com/digitalmethodsinitiative/arpg">https://github.com/digitalmethodsinitiative/arpg</a></p>
+<p><a href="https://github.com/digitalmethodsinitiative/arpg" class="uri">https://github.com/digitalmethodsinitiative/arpg</a></p>
 <p>This PHP script allows you to enter a (set of) ASIN(s) and crawl its recommendations up til a user-specified depth.</p>
 <h3 id="amazon-book-explorer">Amazon Book Explorer</h3>
-<p><a href="http://tools.digitalmethods.net/beta/amazon">http://tools.digitalmethods.net/beta/amazon</a></p>
-<p>Provides different analytics for Amazon.com's book search</p>
+<p><a href="http://tools.digitalmethods.net/beta/amazon" class="uri">http://tools.digitalmethods.net/beta/amazon</a></p>
+<p>Provides different analytics for Amazon.com’s book search</p>
 <h3 id="app-tracker-explorer">App Tracker explorer</h3>
-<p><a href="https://tools.digitalmethods.net/beta/appTrackers">https://tools.digitalmethods.net/beta/appTrackers</a></p>
+<p><a href="https://tools.digitalmethods.net/beta/appTrackers" class="uri">https://tools.digitalmethods.net/beta/appTrackers</a></p>
 <p>The DMI’s App Tracker Tracker is a tool to detect a set of predefined fingerprints of known tracking technologies or other software libaries.</p>
 <h3 id="csv-get"><code>.csv</code> Get</h3>
-<p><a href="https://github.com/fizx/csvget/tree/master">https://github.com/fizx/csvget/tree/master</a></p>
+<p><a href="https://github.com/fizx/csvget/tree/master" class="uri">https://github.com/fizx/csvget/tree/master</a></p>
 <p>Scrape elements from a website and generate a .csv file.</p>
 <p>Use: grab select data like headlines, categories, etc.</p>
 <h3 id="discus-comment-scraper">Discus Comment Scraper</h3>
-<p><a href="http://tools.digitalmethods.net/beta/disqusScraper">http://tools.digitalmethods.net/beta/disqusScraper</a></p>
-<p>This tool scrapes threads and comments from websites implementing the <a href="http://www.disqus.com/Disqus">http://www.disqus.com/Disqus</a> commenting system.</p>
+<p><a href="http://tools.digitalmethods.net/beta/disqusScraper" class="uri">http://tools.digitalmethods.net/beta/disqusScraper</a></p>
+<p>This tool scrapes threads and comments from websites implementing the <a href="http://www.disqus.com/Disqus" class="uri">http://www.disqus.com/Disqus</a> commenting system.</p>
 <h3 id="github-organizations-meta-data-lookup">Github organizations meta-data lookup</h3>
-<p><a href="http://tools.digitalmethods.net/beta/githubOrgsLaunch">http://tools.digitalmethods.net/beta/githubOrgsLaunch</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/githubOrgsLaunch" class="uri">http://tools.digitalmethods.net/beta/githubOrgsLaunch</a></p>
 <p>Extract the meta-data of organizations on Github</p>
 <h3 id="github-repositories-meta-data-lookup">Github repositories meta-data lookup</h3>
-<p><a href="http://tools.digitalmethods.net/beta/githubReposMeta/">http://tools.digitalmethods.net/beta/githubReposMeta/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/githubReposMeta/" class="uri">http://tools.digitalmethods.net/beta/githubReposMeta/</a></p>
 <p>Extract the meta-data of Github repositories</p>
 <h3 id="github-repositories-scraper">Github repositories scraper</h3>
-<p><a href="https://tools.digitalmethods.net/beta/githubRepos/">https://tools.digitalmethods.net/beta/githubRepos/</a></p>
+<p><a href="https://tools.digitalmethods.net/beta/githubRepos/" class="uri">https://tools.digitalmethods.net/beta/githubRepos/</a></p>
 <p>Scrape Github for forks of projects</p>
 <h3 id="github-scraper">Github scraper</h3>
-<p><a href="https://tools.digitalmethods.net/beta/github/">https://tools.digitalmethods.net/beta/github/</a></p>
+<p><a href="https://tools.digitalmethods.net/beta/github/" class="uri">https://tools.digitalmethods.net/beta/github/</a></p>
 <p>Scrape Github for user interactions and user to repository relations</p>
 <h3 id="github-user-meta-data-lookup">Github user meta-data lookup</h3>
-<p><a href="https://tools.digitalmethods.net/beta/githubUserMeta/">https://tools.digitalmethods.net/beta/githubUserMeta/</a></p>
+<p><a href="https://tools.digitalmethods.net/beta/githubUserMeta/" class="uri">https://tools.digitalmethods.net/beta/githubUserMeta/</a></p>
 <p>Extract meta-data about users on Github</p>
 <h3 id="githubcontributorsscraper">GithubContributorsScraper</h3>
-<p><a href="https://tools.digitalmethods.net/beta/githubContributors/">https://tools.digitalmethods.net/beta/githubContributors/</a></p>
+<p><a href="https://tools.digitalmethods.net/beta/githubContributors/" class="uri">https://tools.digitalmethods.net/beta/githubContributors/</a></p>
 <p>Find out which users contributed source code to Github repositories</p>
 <h3 id="google-autocomplete">Google Autocomplete</h3>
-<p><a href="http://tools.digitalmethods.net/beta/scrapeGoogle/autocomplete.php">http://tools.digitalmethods.net/beta/scrapeGoogle/autocomplete.php</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/scrapeGoogle/autocomplete.php" class="uri">http://tools.digitalmethods.net/beta/scrapeGoogle/autocomplete.php</a></p>
 <p>Retrieves autocomplete suggestions from Google</p>
 <h3 id="google-image-scraper">Google Image Scraper</h3>
-<p><a href="http://tools.digitalmethods.net/beta/googleImages">http://tools.digitalmethods.net/beta/googleImages</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/googleImages" class="uri">http://tools.digitalmethods.net/beta/googleImages</a></p>
 <p>Query images.google.com with one or more keywords, and/or use images.google.com to query specific sites for images.</p>
 <h3 id="google-play-similar-apps">Google Play Similar Apps</h3>
-<p><a href="http://tools.digitalmethods.net/beta/googlePlaySimilar">http://tools.digitalmethods.net/beta/googlePlaySimilar</a></p>
-<p>DMI Google Play Similar Apps is a simple tool to extract the details of individual apps, collect ‘Similar' apps, and extract their details.</p>
+<p><a href="http://tools.digitalmethods.net/beta/googlePlaySimilar" class="uri">http://tools.digitalmethods.net/beta/googlePlaySimilar</a></p>
+<p>DMI Google Play Similar Apps is a simple tool to extract the details of individual apps, collect ‘Similar’ apps, and extract their details.</p>
 <h3 id="google-reverse-image-scraper">Google Reverse Image scraper</h3>
-<p><a href="http://tools.digitalmethods.net/beta/googleReverseImages">http://tools.digitalmethods.net/beta/googleReverseImages</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/googleReverseImages" class="uri">http://tools.digitalmethods.net/beta/googleReverseImages</a></p>
 <p>Scrape Google for occurance of images</p>
 <h3 id="googlescraper-lippmannian-device">Googlescraper (Lippmannian Device)</h3>
-<p><a href="http://tools.digitalmethods.net/beta/searchEngineScraper/">http://tools.digitalmethods.net/beta/searchEngineScraper/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/searchEngineScraper/" class="uri">http://tools.digitalmethods.net/beta/searchEngineScraper/</a></p>
 <p>Batch queries Google. Query the resonance of a particular term, or a series of terms, in a set of Websites.</p>
 <h3 id="image-scraper">Image Scraper</h3>
-<p><a href="http://tools.digitalmethods.net/beta/imagesDeep">http://tools.digitalmethods.net/beta/imagesDeep</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/imagesDeep" class="uri">http://tools.digitalmethods.net/beta/imagesDeep</a></p>
 <p>Scrape images from a single page.</p>
+<h3 id="instagram-loader">Instagram Loader</h3>
+<p><a href="https://tools.digitalmethods.net/beta/instagramLoader/" class="uri">https://tools.digitalmethods.net/beta/instagramLoader/</a></p>
+<p>Easily scrape images from Instagram based on hashtag, location, or user data. If the website asks you for a login, try from a different internet connection.</p>
 <h3 id="internet-archive-wayback-machine-link-ripper">Internet Archive Wayback Machine Link Ripper</h3>
-<p><a href="https://tools.digitalmethods.net/beta/internetArchiveWaybackMachineLinkRipper">https://tools.digitalmethods.net/beta/internetArchiveWaybackMachineLinkRipper</a></p>
+<p><a href="https://tools.digitalmethods.net/beta/internetArchiveWaybackMachineLinkRipper" class="uri">https://tools.digitalmethods.net/beta/internetArchiveWaybackMachineLinkRipper</a></p>
 <p>Scrapes links from the Wayback Machine</p>
 <h3 id="internet-archive-wayback-machine-network-per-year">Internet Archive Wayback Machine Network Per Year</h3>
-<p><a href="https://tools.digitalmethods.net/beta/waybackNetworkPerYear/">https://tools.digitalmethods.net/beta/waybackNetworkPerYear/</a></p>
+<p><a href="https://tools.digitalmethods.net/beta/waybackNetworkPerYear/" class="uri">https://tools.digitalmethods.net/beta/waybackNetworkPerYear/</a></p>
 <p>Enter a set of URLs and the archived versions closest to 1 July for a specific year are retrieved. Thereafter links are extracted and a network file is output.</p>
 <h3 id="itunes-store">iTunes Store</h3>
-<p><a href="http://tools.digitalmethods.net/beta/itunesStore">http://tools.digitalmethods.net/beta/itunesStore</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/itunesStore" class="uri">http://tools.digitalmethods.net/beta/itunesStore</a></p>
 <p>Query the iTunes store and grab both tabular and <code>.gdf</code> data regarding results.</p>
 <h3 id="news-agencies-scraper">News Agencies Scraper</h3>
-<p><a href="https://tools.digitalmethods.net/beta/newsAgencies/">https://tools.digitalmethods.net/beta/newsAgencies/</a></p>
+<p><a href="https://tools.digitalmethods.net/beta/newsAgencies/" class="uri">https://tools.digitalmethods.net/beta/newsAgencies/</a></p>
 <p>Basic scraper for various news agencies for particular keywords and extract titles, images, dates and full text.</p>
 <h3 id="octoparse">Octoparse</h3>
-<p><a href="https://www.octoparse.com/">https://www.octoparse.com/</a></p>
+<p><a href="https://www.octoparse.com/" class="uri">https://www.octoparse.com/</a></p>
 <p>An all-in-one solution for scraping websites, including the ability to scrape platform pages. Closed source, paid, and requires a sign-up, although the website offers a 14-day demo trial.</p>
-<ol>
+<ol type="1">
 <li><p>Using Octoparse for Instagram</p>
 <p>Octoparse provides a tutorial for scraping Instagram. It can be found <a href="https://helpcenter.octoparse.com/hc/en-us/articles/360018842071-Scrape-data-on-Instagram">on their website.</a></p></li>
 </ol>
 <h3 id="search-engine-scraper">Search Engine Scraper</h3>
-<p><a href="https://tools.digitalmethods.net/beta/searchEngineScraper/">https://tools.digitalmethods.net/beta/searchEngineScraper/</a></p>
+<p><a href="https://tools.digitalmethods.net/beta/searchEngineScraper/" class="uri">https://tools.digitalmethods.net/beta/searchEngineScraper/</a></p>
 <h3 id="webscraper.io">webscraper.io</h3>
-<p><a href="https://www.webscraper.io/">https://www.webscraper.io/</a></p>
+<p><a href="https://www.webscraper.io/" class="uri">https://www.webscraper.io/</a></p>
 <p>A browser extension that allows you to build scrapers, scrape websites, and export data in .csv format. Closed-source, but the browser extension is free.</p>
 <h3 id="wikipedia-toc-scraper">Wikipedia TOC Scraper</h3>
-<p><a href="http://tools.digitalmethods.net/beta/wikitoc/">http://tools.digitalmethods.net/beta/wikitoc/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/wikitoc/" class="uri">http://tools.digitalmethods.net/beta/wikitoc/</a></p>
 <p>Scrape Table of Contents for revisions of a wikipedia page and explore the results by moving a slider to browse across chronologically ordered TOCs.</p>
 <h3 id="wikipedia-categories-scraper">Wikipedia categories scraper</h3>
-<p><a href="https://tools.digitalmethods.net/beta/wikipediaCategoryAnalysis">https://tools.digitalmethods.net/beta/wikipediaCategoryAnalysis</a></p>
+<p><a href="https://tools.digitalmethods.net/beta/wikipediaCategoryAnalysis" class="uri">https://tools.digitalmethods.net/beta/wikipediaCategoryAnalysis</a></p>
 <p>Scrape Wikipedia for the categories of articles and the categories of related articles in different languages.</p>
 <h3 id="wikipedia-edits-scraper-and-ip-localizer">Wikipedia Edits Scraper and IP Localizer</h3>
-<p><a href="http://tools.digitalmethods.net/beta/wikipedia2geo/">http://tools.digitalmethods.net/beta/wikipedia2geo/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/wikipedia2geo/" class="uri">http://tools.digitalmethods.net/beta/wikipedia2geo/</a></p>
 <p>Scrapes Wikipedia history and does IP to Geo for anonymous edits</p>
 <h3 id="youtube-comment-scraper">YouTube Comment Scraper</h3>
-<p><a href="https://github.com/philbot9/youtube-comment-scraper-cli">https://github.com/philbot9/youtube-comment-scraper-cli</a></p>
+<p><a href="https://github.com/philbot9/youtube-comment-scraper-cli" class="uri">https://github.com/philbot9/youtube-comment-scraper-cli</a></p>
 <p>Scrape comments from YouTube pages.</p>
 <p>Use: uh… scrape comments from YouTube pages.</p>
+<p><a id="org30516ef"></a></p>
 <h2 id="capturing-and-exploring-data">Capturing and exploring data</h2>
 <h3 id="cat-capture-and-analysis-toolkit">4CAT: Capture and Analysis Toolkit</h3>
-<p><a href="http://4cat.oilab.nl/">http://4cat.oilab.nl/</a></p>
+<p><a href="http://4cat.oilab.nl/" class="uri">http://4cat.oilab.nl/</a></p>
 <p>Create datasets from webforums such as 4chan and Reddit and perform textual analysis on the resulting datasets. Login required.</p>
 <h3 id="censorship-explorer">Censorship Explorer</h3>
-<p><a href="http://tools.digitalmethods.net/beta/proxies">http://tools.digitalmethods.net/beta/proxies</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/proxies" class="uri">http://tools.digitalmethods.net/beta/proxies</a></p>
 <p>Check whether a URL is censored in a particular country by using proxies located around the world.</p>
 <h3 id="expand-tiny-urls">Expand Tiny Urls</h3>
-<p><a href="http://tools.digitalmethods.net/beta/expandTinyUrls/">http://tools.digitalmethods.net/beta/expandTinyUrls/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/expandTinyUrls/" class="uri">http://tools.digitalmethods.net/beta/expandTinyUrls/</a></p>
 <p>Expands URLs that have been shortened by tools like tinyurl.com or bit.ly.</p>
 <h3 id="geo-ip">Geo IP</h3>
-<p><a href="http://tools.digitalmethods.net/beta/geoIP/">http://tools.digitalmethods.net/beta/geoIP/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/geoIP/" class="uri">http://tools.digitalmethods.net/beta/geoIP/</a></p>
 <p>Translates URLs or IP addresses into geographical locations</p>
 <h3 id="infoscapelab-dmi-tcat">Infoscapelab DMi-TCAT</h3>
-<p><a href="https://tcat.infoscapelab.ca">https://tcat.infoscapelab.ca</a></p>
+<p><a href="https://tcat.infoscapelab.ca" class="uri">https://tcat.infoscapelab.ca</a></p>
 <p><strong>Login required; contact me at ab {at} anthbrtn.com</strong></p>
 <p>An instance of the University of Amsterdam’s Twitter Capture and Analysis toolkit accessible to Ryerson students.</p>
 <h3 id="link-ripper">Link Ripper</h3>
-<p><a href="http://tools.digitalmethods.net/beta/linkRipper/">http://tools.digitalmethods.net/beta/linkRipper/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/linkRipper/" class="uri">http://tools.digitalmethods.net/beta/linkRipper/</a></p>
 <p>Capture all internal links and/or outlinks from a page.</p>
 <h3 id="robots.txt-discovery">Robots.txt Discovery</h3>
-<p><a href="http://tools.digitalmethods.net/robots">http://tools.digitalmethods.net/robots</a></p>
-<p>Display a site's robot exclusion policy.</p>
+<p><a href="http://tools.digitalmethods.net/robots" class="uri">http://tools.digitalmethods.net/robots</a></p>
+<p>Display a site’s robot exclusion policy.</p>
 <h3 id="screenshot-generator">Screenshot generator</h3>
-<p><a href="http://tools.digitalmethods.net/beta/screenshotGenerator">http://tools.digitalmethods.net/beta/screenshotGenerator</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/screenshotGenerator" class="uri">http://tools.digitalmethods.net/beta/screenshotGenerator</a></p>
 <p>Produce screenshots for a list of URLs</p>
 <h3 id="source-code-search">Source Code Search</h3>
-<p><a href="http://tools.digitalmethods.net/beta/sourceCodeSearch">http://tools.digitalmethods.net/beta/sourceCodeSearch</a></p>
-<p>loads a URL and searches for patterns in the page's source code</p>
+<p><a href="http://tools.digitalmethods.net/beta/sourceCodeSearch" class="uri">http://tools.digitalmethods.net/beta/sourceCodeSearch</a></p>
+<p>loads a URL and searches for patterns in the page’s source code</p>
 <h3 id="text-ripper">Text Ripper</h3>
-<p><a href="http://tools.digitalmethods.net/beta/textRipper">http://tools.digitalmethods.net/beta/textRipper</a></p>
-<p>Rip all non-html (i.e. text) from a specified page.</p>
+<p><a href="http://tools.digitalmethods.net/beta/textRipper" class="uri">http://tools.digitalmethods.net/beta/textRipper</a></p>
+<p>Rip all non-html (i.e. text) from a specified page.</p>
 <h3 id="timestamp-ripper">Timestamp Ripper</h3>
-<p><a href="http://tools.digitalmethods.net/beta/timestamp">http://tools.digitalmethods.net/beta/timestamp</a></p>
-<p>Rips and displays a web page's last modification date (using the page's HTML header). Beware of dynamically generated pages, where the date stamps will be the time of retrieval.</p>
+<p><a href="http://tools.digitalmethods.net/beta/timestamp" class="uri">http://tools.digitalmethods.net/beta/timestamp</a></p>
+<p>Rips and displays a web page’s last modification date (using the page’s HTML header). Beware of dynamically generated pages, where the date stamps will be the time of retrieval.</p>
 <h3 id="triangulation">Triangulation</h3>
-<p><a href="http://tools.digitalmethods.net/beta/triangulate/">http://tools.digitalmethods.net/beta/triangulate/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/triangulate/" class="uri">http://tools.digitalmethods.net/beta/triangulate/</a></p>
 <p>Enter two or more lists of URLs or other items to discover commonalities among them. Possible visualizations include a Venn Diagram.</p>
 <h3 id="netvizz-tumblr-toolkit">Netvizz Tumblr toolkit</h3>
-<p><a href="https://tools.digitalmethods.net/netvizz/tumblr/Launch">https://tools.digitalmethods.net/netvizz/tumblr/Launch</a></p>
+<p><a href="https://tools.digitalmethods.net/netvizz/tumblr/Launch" class="uri">https://tools.digitalmethods.net/netvizz/tumblr/Launch</a></p>
 <p>Analyze co-hashtags and other basic text information from Tumblr posts.</p>
 <h3 id="twxplorer">twXplorer</h3>
-<p><a href="https://twxplorer.knightlab.com/">https://twxplorer.knightlab.com/</a></p>
+<p><a href="https://twxplorer.knightlab.com/" class="uri">https://twxplorer.knightlab.com/</a></p>
 <p>Search recent tweets and analyze them.</p>
 <p>Use: if you want a quick analysis that the TCAT doesn’t provide.</p>
 <h3 id="wikipedia-cross-lingual-image-analysis">Wikipedia Cross-Lingual Image Analysis</h3>
-<p><a href="http://tools.digitalmethods.net/beta/wikipediaCrosslingualImageAnalysis">http://tools.digitalmethods.net/beta/wikipediaCrosslingualImageAnalysis</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/wikipediaCrosslingualImageAnalysis" class="uri">http://tools.digitalmethods.net/beta/wikipediaCrosslingualImageAnalysis</a></p>
 <p>Makes the images of all language versions of a Wikipedia article comparable.</p>
 <h3 id="wikipedia-entry-check">Wikipedia Entry Check</h3>
-<p><a href="http://tools.digitalmethods.net/beta/wikipediaEntryCheck/">http://tools.digitalmethods.net/beta/wikipediaEntryCheck/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/wikipediaEntryCheck/" class="uri">http://tools.digitalmethods.net/beta/wikipediaEntryCheck/</a></p>
 <p>This tool checks if the issues exist as a Wikipedia page, i.e., an article. If it exists it checks whether the organization is mentioned on that page.</p>
 <h3 id="youtube-data-tools">YouTube Data Tools</h3>
-<p><a href="https://tools.digitalmethods.net/netvizz/youtube/">https://tools.digitalmethods.net/netvizz/youtube/</a></p>
+<p><a href="https://tools.digitalmethods.net/netvizz/youtube/" class="uri">https://tools.digitalmethods.net/netvizz/youtube/</a></p>
 <p>A collection of simple tools for extracting data from the YouTube platform via the YouTube API v3.</p>
+<p><a id="orgd943233"></a></p>
 <h1 id="data-organization-and-maintenance">Data organization and maintenance</h1>
+<p><a id="orgbd53587"></a></p>
 <h2 id="data-reading">Data reading</h2>
 <h3 id="agnes">Agnes</h3>
-<p><a href="http://www.secretgeek.net/agnes/twoWay.html">http://www.secretgeek.net/agnes/twoWay.html</a></p>
+<p><a href="http://www.secretgeek.net/agnes/twoWay.html" class="uri">http://www.secretgeek.net/agnes/twoWay.html</a></p>
 <p>Convert <code>.csv</code> data to <code>.json</code> and vice-versa.</p>
 <p>Use: much API data is returned as <code>.json</code>-formatted files.</p>
 <h3 id="csv-to-table"><code>.csv</code> to Table</h3>
-<p><a href="https://github.com/vividvilla/csvtotable">https://github.com/vividvilla/csvtotable</a></p>
+<p><a href="https://github.com/vividvilla/csvtotable" class="uri">https://github.com/vividvilla/csvtotable</a></p>
 <p>Convert <code>.csv</code> files to searchable and sortable HTML table.</p>
 <p>Use: visualize and analyze data formatted in <code>.csv</code></p>
 <h3 id="ebays-tabular-data-file-utilities">eBay’s tabular data file utilities</h3>
-<p><a href="https://github.com/eBay/tsv-utils">https://github.com/eBay/tsv-utils</a></p>
+<p><a href="https://github.com/eBay/tsv-utils" class="uri">https://github.com/eBay/tsv-utils</a></p>
 <p>Analyze data saved with <code>tab</code> delimiters, as opposed to the standard <code>comma</code>. Yes, it’s <em>that</em> eBay.</p>
 <p>Use: perform maintenance and reading on <code>tab</code>-separated files.</p>
 <h3 id="mario">Mario</h3>
-<p><a href="https://github.com/python-mario/mario">https://github.com/python-mario/mario</a></p>
+<p><a href="https://github.com/python-mario/mario" class="uri">https://github.com/python-mario/mario</a></p>
 <p>Gain access to the Python programming language’s variety of tools and libraries to perform analysis on <code>.csv</code>, <code>.json</code>, <code>.html</code> files and more.</p>
 <p>Use: pretty much any analysis and conversion under the sun; it’s a powerful toolkit but requires reading the documentation to figure out your own use-case.</p>
 <h3 id="networkx">networkX</h3>
-<p><a href="http://networkx.github.io/">http://networkx.github.io/</a></p>
+<p><a href="http://networkx.github.io/" class="uri">http://networkx.github.io/</a></p>
 <p>A Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.</p>
 <p>Use: analyze graphs and networks and return them using python.</p>
 <h3 id="nodegoat">Nodegoat</h3>
-<p><a href="https://nodegoat.net/">https://nodegoat.net/</a></p>
+<p><a href="https://nodegoat.net/" class="uri">https://nodegoat.net/</a></p>
 <p>A web-based data management, network analysis &amp; visualisation environment.</p>
 <p>Use: an all-in-one suite for analyzing, managing and graphing data.</p>
 <h3 id="papaparse">PapaParse</h3>
-<p><a href="https://www.papaparse.com/demo">https://www.papaparse.com/demo</a></p>
+<p><a href="https://www.papaparse.com/demo" class="uri">https://www.papaparse.com/demo</a></p>
 <p>A browser-based tool that allows you to parse and analyze <code>.csv</code> data.</p>
 <p>Use: look for basic patterns and characteristics of a <code>.csv</code>.</p>
 <h3 id="xsv">XSV</h3>
-<p><a href="https://github.com/BurntSushi/xsv">https://github.com/BurntSushi/xsv</a></p>
+<p><a href="https://github.com/BurntSushi/xsv" class="uri">https://github.com/BurntSushi/xsv</a></p>
 <p>A command-line toolkit to analyze and investigate .csv files.</p>
 <p>Use: easily find out things like frequencies of data, different values, and correlations.</p>
 <h3 id="tad">Tad</h3>
-<p><a href="https://github.com/antonycourtney/tad">https://github.com/antonycourtney/tad</a></p>
+<p><a href="https://github.com/antonycourtney/tad" class="uri">https://github.com/antonycourtney/tad</a></p>
 <p>Tad is a desktop application for viewing and analyzing tabular data such as <code>.csv</code> files.</p>
 <p>Use: easily create “pivot tables” to analyze your data, among other csv functions.</p>
 <h3 id="tapor-coding-tools">Tapor-coding-tools</h3>
-<p><a href="https://github.com/TAPoR-3-Tools/Tapor-Coding-Tools">https://github.com/TAPoR-3-Tools/Tapor-Coding-Tools</a></p>
+<p><a href="https://github.com/TAPoR-3-Tools/Tapor-Coding-Tools" class="uri">https://github.com/TAPoR-3-Tools/Tapor-Coding-Tools</a></p>
 <p>A collection of coding tools, mostly in python, to analyze text.</p>
 <p>Use: worth exploring to find programming examples for the analysis of text. Many use-cases in the repository.</p>
+<p><a id="orgd72812f"></a></p>
 <h2 id="data-maintenance">Data maintenance</h2>
 <h3 id="rons-.csv-editor">Ron’s <code>.csv</code> Editor</h3>
-<p><a href="https://www.ronsplace.eu/products/ronseditor">https://www.ronsplace.eu/products/ronseditor</a></p>
+<p><a href="https://www.ronsplace.eu/products/ronseditor" class="uri">https://www.ronsplace.eu/products/ronseditor</a></p>
 <p>Deal with massive .csv files easily.</p>
 <p>Use: organize, read, and analyze .csv files that would normally crash a spreadsheet program.</p>
 <h3 id="scrubcsv">scrubcsv</h3>
-<p><a href="https://github.com/faradayio/scrubcsv">https://github.com/faradayio/scrubcsv</a></p>
+<p><a href="https://github.com/faradayio/scrubcsv" class="uri">https://github.com/faradayio/scrubcsv</a></p>
 <p>Remove bad lines from a .csv file and normalize the rest.</p>
 <p>Use: sometimes .csv files exported from SQL databases have errors; many tools here, such as the YouTube data tools and the Twitter Capture and Analysis toolkit are exported as such. This tool discards those error-ridden rows and allows you to read the files.</p>
 <h3 id="openrefine">OpenRefine</h3>
-<p><a href="https://openrefine.org/">https://openrefine.org/</a></p>
+<p><a href="https://openrefine.org/" class="uri">https://openrefine.org/</a></p>
 <p>A tool for cleaning data; transforming it from one format into another; and extending it with web services and external data. OpenRefine can be used to scrape data from websites or convert data between formats. It also makes it easy to save the processing steps to a file that can be loaded back into the tool at a later time, making it easy to repeat the process again on a different set of data.</p>
+<p><a id="org24df978"></a></p>
 <h1 id="data-analysis-and-visualization">Data analysis and visualization</h1>
+<p><a id="orgfe94d2b"></a></p>
 <h2 id="visualization">Visualization</h2>
 <h3 id="bubble-lines">Bubble Lines</h3>
-<p><a href="http://tools.digitalmethods.net/beta/bubbleline/">http://tools.digitalmethods.net/beta/bubbleline/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/bubbleline/" class="uri">http://tools.digitalmethods.net/beta/bubbleline/</a></p>
 <p>Input tags and values to produce relatively sized bubbles. Output is an svg.</p>
 <h3 id="concordle">Concordle</h3>
-<p><a href="https://folk.uib.no/nfylk/concordle/">https://folk.uib.no/nfylk/concordle/</a></p>
+<p><a href="https://folk.uib.no/nfylk/concordle/" class="uri">https://folk.uib.no/nfylk/concordle/</a></p>
 <p>Generate word clouds and see word correlations in a given text. Calls itself the “not-so-pretty cousin of Wordle” (below).</p>
 <p>Use: basic text analysis of word frequencies, along with visualization.</p>
 <h3 id="colors-for-data-scientists">Colors For Data Scientists</h3>
-<p><a href="http://tools.medialab.sciences-po.fr/iwanthue/">http://tools.medialab.sciences-po.fr/iwanthue/</a></p>
+<p><a href="http://tools.medialab.sciences-po.fr/iwanthue/" class="uri">http://tools.medialab.sciences-po.fr/iwanthue/</a></p>
 <p>Generate and refine palettes of optimally distinct colors. (by Sciences-Po)</p>
 <h3 id="datawrapper">Datawrapper</h3>
-<p><a href="https://datawrapper.de">https://datawrapper.de</a></p>
+<p><a href="https://datawrapper.de" class="uri">https://datawrapper.de</a></p>
 <p>Datawrapper allows users to create a variety of basic charts and graphs using submitted tabular data.</p>
 <h3 id="deduplicate">Deduplicate</h3>
-<p><a href="http://tools.digitalmethods.net/beta/deduplicate">http://tools.digitalmethods.net/beta/deduplicate</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/deduplicate" class="uri">http://tools.digitalmethods.net/beta/deduplicate</a></p>
 <p>Replicates the tags in a tag cloud by their value</p>
 <h3 id="dorling-map-generator">Dorling Map Generator</h3>
-<p><a href="http://tools.digitalmethods.net/beta/dorling/">http://tools.digitalmethods.net/beta/dorling/</a></p>
-<p>Input tags and values to produce a Dorling Map (i.e. bubbles). Output is an svg.</p>
+<p><a href="http://tools.digitalmethods.net/beta/dorling/" class="uri">http://tools.digitalmethods.net/beta/dorling/</a></p>
+<p>Input tags and values to produce a Dorling Map (i.e. bubbles). Output is an svg.</p>
 <h3 id="chronos-timeline">Chronos Timeline</h3>
-<p><a href="http://hyperstudio.mit.edu/software/chronos-timeline/">http://hyperstudio.mit.edu/software/chronos-timeline/</a> Chronos allows scholars and students to dynamically present historical data in a flexible online environment.</p>
+<p><a href="http://hyperstudio.mit.edu/software/chronos-timeline/" class="uri">http://hyperstudio.mit.edu/software/chronos-timeline/</a> Chronos allows scholars and students to dynamically present historical data in a flexible online environment.</p>
 <h3 id="lippmannian-device-to-gephi">Lippmannian Device To Gephi</h3>
-<p><a href="http://tools.digitalmethods.net/beta/lippmannianDeviceToGephi">http://tools.digitalmethods.net/beta/lippmannianDeviceToGephi</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/lippmannianDeviceToGephi" class="uri">http://tools.digitalmethods.net/beta/lippmannianDeviceToGephi</a></p>
 <p>This tool allows one to visualize the output of the Lippmannian device as a network with Gephi.</p>
 <h3 id="raw-text-to-tag-cloud-engine">Raw Text to Tag Cloud Engine</h3>
-<p><a href="http://tools.digitalmethods.net/beta/tagcloud/">http://tools.digitalmethods.net/beta/tagcloud/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/tagcloud/" class="uri">http://tools.digitalmethods.net/beta/tagcloud/</a></p>
 <p>Takes raw text, counts the words and returns an ordered, unordered or alphabetically ordered tagcloud.</p>
 <h3 id="rawgraphs.io">rawgraphs.io</h3>
-<p><a href="https://rawgraphs.io">https://rawgraphs.io</a></p>
+<p><a href="https://rawgraphs.io" class="uri">https://rawgraphs.io</a></p>
 <p>Rawgraphs is an online tabular data processing program that allows users to create advanced charts and graphs using submitted tabular data.</p>
 <h3 id="scene">Scene</h3>
-<p><a href="https://scene.knightlab.com/">https://scene.knightlab.com/</a> Create a multimedia story told through 3D “VR” tools.</p>
+<p><a href="https://scene.knightlab.com/" class="uri">https://scene.knightlab.com/</a> Create a multimedia story told through 3D “VR” tools.</p>
 <h3 id="seealsology">Seealsology</h3>
-<p><a href="https://densitydesign.github.io/strumentalia-seealsology/">https://densitydesign.github.io/strumentalia-seealsology/</a></p>
-<p>Create a graph out of the "see also" networks between given Wikipedia pages.</p>
+<p><a href="https://densitydesign.github.io/strumentalia-seealsology/" class="uri">https://densitydesign.github.io/strumentalia-seealsology/</a></p>
+<p>Create a graph out of the “see also” networks between given Wikipedia pages.</p>
 <h3 id="simile">Simile</h3>
-<p><a href="http://simile-widgets.org/">http://simile-widgets.org/</a></p>
+<p><a href="http://simile-widgets.org/" class="uri">http://simile-widgets.org/</a></p>
 <p>A collection of free, open-source web widgets, mostly for data visualizations.</p>
 <h3 id="soundcite">Soundcite</h3>
-<p><a href="http://soundcite.knightlab.com/">http://soundcite.knightlab.com/</a></p>
+<p><a href="http://soundcite.knightlab.com/" class="uri">http://soundcite.knightlab.com/</a></p>
 <p>Stitch together audio from various sources and embed it within a readable text.</p>
 <h3 id="storyline">Storyline</h3>
-<p><a href="http://storyline.knightlab.com/">http://storyline.knightlab.com/</a></p>
+<p><a href="http://storyline.knightlab.com/" class="uri">http://storyline.knightlab.com/</a></p>
 <p>Easy-to-use tool to build an annotated, interactive line chart.</p>
 <h3 id="storymap">StoryMap</h3>
-<p><a href="http://storymap.knightlab.com/">http://storymap.knightlab.com/</a></p>
+<p><a href="http://storymap.knightlab.com/" class="uri">http://storymap.knightlab.com/</a></p>
 <p>Create a narrative, sequential story that moves through locations on a map.</p>
 <h3 id="table-to-net">Table to Net</h3>
-<p><a href="http://tools.medialab.sciences-po.fr/table2net/">http://tools.medialab.sciences-po.fr/table2net/</a></p>
+<p><a href="http://tools.medialab.sciences-po.fr/table2net/" class="uri">http://tools.medialab.sciences-po.fr/table2net/</a></p>
 <p>Extract a network from a table. Set a column for nodes and a column for edges. It deals with multiple items per cell. (by Médialab Sciences-Po)</p>
 <h3 id="tag-cloud-combinator">Tag Cloud Combinator</h3>
-<p><a href="http://tools.digitalmethods.net/beta/tagCloudCombinator">http://tools.digitalmethods.net/beta/tagCloudCombinator</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/tagCloudCombinator" class="uri">http://tools.digitalmethods.net/beta/tagCloudCombinator</a></p>
 <p>Enter two or more tag clouds and the values of each tag will be summed.</p>
 <h3 id="tag-cloud-generator">Tag Cloud Generator</h3>
-<p><a href="http://tools.digitalmethods.net/beta/svgcloud/">http://tools.digitalmethods.net/beta/svgcloud/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/svgcloud/" class="uri">http://tools.digitalmethods.net/beta/svgcloud/</a></p>
 <p>Input tags and values to produce a tag cloud. Output is in SVG.</p>
 <h3 id="tag-cloud-html-generator">Tag Cloud HTML Generator</h3>
-<p><a href="http://labs.polsys.net/tools/visual/tagcloud/">http://labs.polsys.net/tools/visual/tagcloud/</a></p>
+<p><a href="http://labs.polsys.net/tools/visual/tagcloud/" class="uri">http://labs.polsys.net/tools/visual/tagcloud/</a></p>
 <p>Input tags and values in wordle format to produce a HTML tag cloud or tag list.</p>
 <h3 id="tag-cloud-to-wordle">Tag Cloud To Wordle</h3>
-<p><a href="http://tools.digitalmethods.net/beta/tagcloudToWordle/">http://tools.digitalmethods.net/beta/tagcloudToWordle/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/tagcloudToWordle/" class="uri">http://tools.digitalmethods.net/beta/tagcloudToWordle/</a></p>
 <p>This tool allows one to transform a normal tag cloud into a fancy Wordle one.</p>
 <h3 id="timeglider">TimeGlider</h3>
-<p><a href="http://timeglider.com/">http://timeglider.com/</a></p>
+<p><a href="http://timeglider.com/" class="uri">http://timeglider.com/</a></p>
 <p>A web-based timeline builder</p>
 <h3 id="timeline">Timeline</h3>
-<p><a href="http://timeline.knightlab.com/">http://timeline.knightlab.com/</a></p>
+<p><a href="http://timeline.knightlab.com/" class="uri">http://timeline.knightlab.com/</a></p>
 <p>Create a visually-appealing annotated timeline.</p>
 <h3 id="timetoast">TimeToast</h3>
-<p><a href="http://www.timetoast.com/">http://www.timetoast.com/</a></p>
+<p><a href="http://www.timetoast.com/" class="uri">http://www.timetoast.com/</a></p>
 <p>A tool for creating timelines which can be added to a website or blog.</p>
 <h3 id="umap">uMap</h3>
-<p><a href="https://umap.openstreetmap.fr/en/">https://umap.openstreetmap.fr/en/</a></p>
+<p><a href="https://umap.openstreetmap.fr/en/" class="uri">https://umap.openstreetmap.fr/en/</a></p>
 <p>Create resuable, static, embeddable maps from OpenStreetMap data.</p>
 <h3 id="viewshare">Viewshare</h3>
-<p><a href="http://viewshare.org/">http://viewshare.org/</a></p>
+<p><a href="http://viewshare.org/" class="uri">http://viewshare.org/</a></p>
 <p>A platform that helps you create customized “views” such as interactive maps and timelines.</p>
 <h3 id="visidata">VisiData</h3>
-<p><a href="https://www.visidata.org/">https://www.visidata.org/</a></p>
+<p><a href="https://www.visidata.org/" class="uri">https://www.visidata.org/</a></p>
 <p>An interactive, command-line tool for analyzing and visualizing tabular data.</p>
 <p>Use: get quick visualizations and perform other data-scientific methods on tabular data.</p>
 <h3 id="wordle">Wordle</h3>
-<p><a href="http://www.wordle.net/">http://www.wordle.net/</a></p>
+<p><a href="http://www.wordle.net/" class="uri">http://www.wordle.net/</a></p>
 <p>Generate word clouds (clouds of words that size the words based on frequency) for a given text.</p>
 <p>Use: visualize frequency of words in a given corpus.</p>
+<p><a id="org434b523"></a></p>
 <h2 id="analysis">Analysis</h2>
 <h3 id="compare-lists">Compare Lists</h3>
-<p><a href="http://tools.digitalmethods.net/beta/analyse">http://tools.digitalmethods.net/beta/analyse</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/analyse" class="uri">http://tools.digitalmethods.net/beta/analyse</a></p>
 <p>Compare two lists of URLs for their commonalities and differences.</p>
 <h3 id="complexsentimentanalysis.ipynb">ComplexSentimentAnalysis.ipynb</h3>
-<p><a href="https://github.com/sgsinclair/alta/blob/dc47e4b47b133cee24a85e9817592971e67681cd/ipynb/utilities/ComplexSentimentAnalysis.ipynb">https://github.com/sgsinclair/alta/blob/dc47e4b47b133cee24a85e9817592971e67681cd/ipynb/utilities/ComplexSentimentAnalysis.ipynb</a></p>
+<p><a href="https://github.com/sgsinclair/alta/blob/dc47e4b47b133cee24a85e9817592971e67681cd/ipynb/utilities/ComplexSentimentAnalysis.ipynb" class="uri">https://github.com/sgsinclair/alta/blob/dc47e4b47b133cee24a85e9817592971e67681cd/ipynb/utilities/ComplexSentimentAnalysis.ipynb</a></p>
 <p>A <a href="https://jupyter.org/">iPython notebook</a> that walks the user through performing complex sentiment analysis of passages like Tweets for sentiment analysis. You can download the iPython notebook and run it yourself (which requires Jupyter lab, linked in the previous sentence), or read the text for an example.</p>
 <p>Use: learn how to use python for sentiment analysis; perform sentiment analysis on texts.</p>
 <h3 id="gephi">Gephi</h3>
-<p><a href="https://gephi.org/">https://gephi.org/</a></p>
+<p><a href="https://gephi.org/" class="uri">https://gephi.org/</a></p>
 <p>Gephi is a visualization and exploration software for all kinds of graphs and networks.</p>
 <p>Use: analyze the <code>.gdf</code> and <code>.gxml</code> files returned by many scraping and collection tools. The most robust tool available, but sometimes slow and hard to configure; an online alternative is <strong>Polinode</strong>, below.</p>
 <h3 id="harvester">Harvester</h3>
-<p><a href="http://tools.digitalmethods.net/beta/harvestUrls/">http://tools.digitalmethods.net/beta/harvestUrls/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/harvestUrls/" class="uri">http://tools.digitalmethods.net/beta/harvestUrls/</a></p>
 <p>Extract URLs from text, source code or search engine results. Produces a clean list of URLs.</p>
 <h3 id="juxtapose">Juxtapose</h3>
-<p><a href="http://juxtapose.knightlab.com/">http://juxtapose.knightlab.com/</a></p>
+<p><a href="http://juxtapose.knightlab.com/" class="uri">http://juxtapose.knightlab.com/</a></p>
 <p>Easily compare two images within a frame.</p>
 <h3 id="language-detection">Language Detection</h3>
-<p><a href="http://tools.digitalmethods.net/beta/text_cat/">http://tools.digitalmethods.net/beta/text_cat/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/text_cat/" class="uri">http://tools.digitalmethods.net/beta/text_cat/</a></p>
 <p>Detects language for given URLs. The first 1000 characters on the Web page(s) are extracted, and the language of each page is detected.</p>
 <h3 id="lippmannian-device">Lippmannian Device</h3>
-<p><a href="https://tools.digitalmethods.net/beta/lippmannianDevice/">https://tools.digitalmethods.net/beta/lippmannianDevice/</a></p>
+<p><a href="https://tools.digitalmethods.net/beta/lippmannianDevice/" class="uri">https://tools.digitalmethods.net/beta/lippmannianDevice/</a></p>
 <p>The Lippmannian device is named Walter Lippmann, and provides a coarse means of showing actor partisanship.</p>
 <h3 id="nodexl">NodeXL</h3>
-<p><a href="http://nodexl.codeplex.com/">http://nodexl.codeplex.com/</a></p>
+<p><a href="http://nodexl.codeplex.com/" class="uri">http://nodexl.codeplex.com/</a></p>
 <p>NodeXL is a plugin to Microsoft Excel that allows you to visualize and analyze data beyond what the program has normally built in.</p>
 <p>Use: visualize and analyze data using Microsoft Excel (although for a faster, lighter, and free alternative, see <a href="https://www.libreoffice.org/">LibreOffice</a>).</p>
 <h3 id="palladio">Palladio</h3>
-<p><a href="http://hdlab.stanford.edu/palladio/">http://hdlab.stanford.edu/palladio/</a></p>
+<p><a href="http://hdlab.stanford.edu/palladio/" class="uri">http://hdlab.stanford.edu/palladio/</a></p>
 <p>Various analyses of historical data in tabular format.</p>
 <h3 id="polinode">Polinode</h3>
-<p><a href="https://www.polinode.com/">https://www.polinode.com/</a></p>
+<p><a href="https://www.polinode.com/" class="uri">https://www.polinode.com/</a></p>
 <p><strong>Login required</strong></p>
 <p>Polinode is an online tool that allows for the opening and basic manipulation of <code>.gdf</code> files.</p>
 <p>Use: analyze the <code>.gdf</code> and <code>.gxml</code> files returned by many scraping and collection tools. An online tool that is not as powerful as <strong>Gephi</strong>, above, but easier to understand and get started with.</p>
 <h3 id="rip-sentences">Rip Sentences</h3>
-<p><a href="http://tools.digitalmethods.net/beta/sentences">http://tools.digitalmethods.net/beta/sentences</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/sentences" class="uri">http://tools.digitalmethods.net/beta/sentences</a></p>
 <p>Rip text from a specified page and force line breaks between sentences.</p>
 <h3 id="umigo">Umigo</h3>
 <h3 id="table-2-net">Table 2 Net</h3>
-<p><a href="https://medialab.github.io/table2net/">https://medialab.github.io/table2net/</a></p>
+<p><a href="https://medialab.github.io/table2net/" class="uri">https://medialab.github.io/table2net/</a></p>
 <p>Parse tabular data for relationships and convert into a table.</p>
 <h3 id="tld-counts">TLD counts</h3>
-<p><a href="http://tools.digitalmethods.net/beta/tldCounts/">http://tools.digitalmethods.net/beta/tldCounts/</a></p>
+<p><a href="http://tools.digitalmethods.net/beta/tldCounts/" class="uri">http://tools.digitalmethods.net/beta/tldCounts/</a></p>
 <p>Enter URLS, and count the top level domains.</p>
 <h3 id="voyant">Voyant</h3>
-<p><a href="https://voyant-tools.org/">https://voyant-tools.org/</a></p>
+<p><a href="https://voyant-tools.org/" class="uri">https://voyant-tools.org/</a></p>
 <p>A web-based tool that provides text reading and basic analysis based on copy-pasted text.</p>
+<p><a id="org97bf486"></a></p>
 <h1 id="sources-see-more">Sources / see more</h1>
+<p><a id="org2bc1b4b"></a></p>
 <h2 id="university-of-north-carolina-digital-humanities-tools-list">University of North Carolina Digital Humanities Tools list</h2>
-<p><a href="http://digitalhumanities.unc.edu/resources/tools/">http://digitalhumanities.unc.edu/resources/tools/</a></p>
+<p><a href="http://digitalhumanities.unc.edu/resources/tools/" class="uri">http://digitalhumanities.unc.edu/resources/tools/</a></p>
+<p><a id="orgc070df7"></a></p>
 <h2 id="duke-university-digital-humanities-tools-list">Duke University Digital Humanities Tools list</h2>
-<p><a href="https://digitalhumanities.duke.edu/tools">https://digitalhumanities.duke.edu/tools</a></p>
+<p><a href="https://digitalhumanities.duke.edu/tools" class="uri">https://digitalhumanities.duke.edu/tools</a></p>
+<p><a id="org5208eba"></a></p>
 <h2 id="dhtechs-awesome-digital-humanities-tools-list">DHtech’s Awesome Digital Humanities tools list</h2>
-<p><a href="https://github.com/dh-tech/awesome-dhtools">https://github.com/dh-tech/awesome-dhtools</a></p>
+<p><a href="https://github.com/dh-tech/awesome-dhtools" class="uri">https://github.com/dh-tech/awesome-dhtools</a></p>
+<p><a id="org6b43868"></a></p>
 <h2 id="university-of-amsterdam-digital-methods-initiatives-tool-database">University of Amsterdam Digital Methods Initiative’s tool database</h2>
-<p><a href="https://wiki.digitalmethods.net/Dmi/ToolDatabase">https://wiki.digitalmethods.net/Dmi/ToolDatabase</a></p>
+<p><a href="https://wiki.digitalmethods.net/Dmi/ToolDatabase" class="uri">https://wiki.digitalmethods.net/Dmi/ToolDatabase</a></p>
+<p><a id="orgcceca96"></a></p>
 <h2 id="sciences-po-médialab-tools">Sciences Po médialab tools</h2>
-<p><a href="http://tools.medialab.sciences-po.fr/">http://tools.medialab.sciences-po.fr/</a></p>
+<p><a href="http://tools.medialab.sciences-po.fr/" class="uri">http://tools.medialab.sciences-po.fr/</a></p>
+<p><a id="org8be4cc2"></a></p>
 <h2 id="dbohans-awesome-structured-text-tools-list">dbohan’s Awesome Structured Text Tools list</h2>
-<p><a href="https://github.com/dbohdan/structured-text-tools">https://github.com/dbohdan/structured-text-tools</a></p>
+<p><a href="https://github.com/dbohdan/structured-text-tools" class="uri">https://github.com/dbohdan/structured-text-tools</a></p>
+
 </body>
 </html>
