@@ -45,6 +45,10 @@ This document is organized according to the sort of flow that a digital methods 
 
 ## Scraping
 
+### Loot.photo
+
+<https://loot.photo/>
+This website allows you to dowload photos and videos from a given tweet instantly.
 
 ### Amazon Related Product Graph
 
